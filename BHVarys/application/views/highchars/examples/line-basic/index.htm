@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="../../jquery-1.8.3.min.js"></script>
+		<script type="text/javascript">
+$(function () {
+        $('#container').highcharts({
+            chart: {
+                type: 'spline',
+                marginRight: 130,
+                marginBottom: 25
+            },
+            title: {
+                text: '热血问战公会统计系统',
+                x: -20 //center
+            },
+          
+            xAxis: {
+				title:{text:'日期',align: 'high',},
+                categories: ['2014-01-01', '2014-01-02', '2014-01-03','2014-01-04', '2014-01-05', '2014-01-06',
+                   '2014-01-07']
+            },
+            yAxis: {
+               title: {
+                    text: '收入￥',
+                    align: 'high',
+                    rotation: 0
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            },
+            tooltip: {
+                valueSuffix: '￥'
+            },
+            legend: {
+                layout: 'horizontal',
+                align: 'top',
+                verticalAlign: 'bottom',
+                x: -10,
+                y: 100,
+                borderWidth: 0
+            },
+            series: [{
+                name: '一周收入统计表',
+                data: [1000, 2000, 3000, 4000, 5000, 100, 200]
+            }]
+        });
+    });
+    
+
+		</script>
+	</head>
+	<body>
+<script src="../../js/highcharts.js"></script>
+<script src="../../js/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+
+	</body>
+</html>
