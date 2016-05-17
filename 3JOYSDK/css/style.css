@@ -1,0 +1,300 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+/* reset */
+*{margin:0;padding:0;}
+html,body{height:100%;font-family: Arial, Geneva,Helvetica, sans-serif;
+	font-size: 100%;
+	background:#f1f1f1;}
+ol,ul{list-style:none;margin:0;padding:0;}
+
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+
+.wrap{
+	display: block;
+    height: 100%;
+}
+.span1_of_3{ height:100%; display:block;}
+#verticalTab{margin-top:2px; display: block;
+    height: 100%;}
+/* start span1_of_3 style */
+.resp-tabs-list {
+	float: left;
+	width: 24%;
+	background: #45484a;
+	min-height:768px;
+}
+.resp-tabs-container {
+	background-color: #fff;
+	float: left;
+	width: 76%;
+	clear: none;
+	padding-top: 1%;
+	min-height:755px;
+}
+ul.resp-tabs-list, p {
+	color: #333;
+
+}
+.resp-tabs-list li {
+    font-weight: 600;
+    display: block;
+	height:40px;
+	line-height:40px;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+	text-align:center;
+}
+
+.resp-tabs-list li a{color:#fff; font-size:1em;}
+.resp-tabs-list li:hover{ background: url(../images/header-bg.png) repeat-x;}
+.resp-tabs-list li.active{
+	background: url(../images/btn-bg.png) repeat-x;
+	color:#FFFFFF;
+}
+.resp-tabs-list li.active a{color:#FFFFFF;}
+.resp-tabs-list li i{
+	width: 28px;
+	height: 28px;
+	display: block;
+	margin: 0 auto;
+	background: url('../images/img_sprite.png') no-repeat;
+}
+.resp-tabs-list li i.icon_1{
+	background-position: 0px -42px;
+}
+.resp-tabs-list li i.icon_2{
+	background-position: 0px 0px;
+}
+.resp-tabs-list li i.icon_3{
+	background-position: 0px -78px;
+}
+.resp-tabs-list li i.icon_4{
+	background-position: 0px -120px;
+}
+.resp-tabs-list li i.icon_5{
+	background-position: 0px -160px;
+}
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+.resp-tab-content {
+    display: none;
+    padding: 10px;
+}
+.resp-tab-active {
+    border: 1px solid #c1c1c1;
+    border-bottom: none;
+    margin-bottom: -1px !important;
+    padding: 12px 14px 14px 14px !important;
+}
+.resp-tab-active {
+    border-bottom: none;
+    background-color: #fff;
+}
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+.resp-tab-content {
+    border: 1px solid #c1c1c1;
+}
+h2.resp-accordion {
+    font-size: 13px;
+    border: 1px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+    padding: 10px 15px;
+}
+h2.resp-tab-active {
+    border-bottom: 0px solid #c1c1c1 !important;
+    margin-bottom: 0px !important;
+    padding: 10px 15px !important;
+}
+h2.resp-tab-title:last-child {
+    border-bottom: 12px solid #c1c1c1 !important;
+    background: blue;
+}
+.new_posts h3{
+	font-family: Arial, Geneva,Helvetica, sans-serif;
+	text-transform: capitalize;
+	font-size: 1.4em;
+	color: #2E3641;
+	font-weight: 600;
+}
+/* start span1_of_list */
+.subcribes{
+	position: relative;
+	font-family: Arial, Geneva,Helvetica, sans-serif;
+	background: #444;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	height:40px;
+}
+.subscribe{
+	position: relative;
+}
+.subscribe form{
+	padding: 10px;
+}
+.subscribe span{
+	display:block;
+	font-size: 0.8725em;
+	color: #9EB2C0;
+	margin: 0 0 10px;
+}
+.subscribe form input[type="text"]{
+	font-family: Arial, Geneva,Helvetica, sans-serif;
+	padding: 9px;
+	outline: none;
+	color: #C1CFD9;
+	background: #FFFFFF;
+	width: 52.333%;
+	font-size: 0.8725em;
+	line-height: 1.5em;
+	position: relative;
+	border: 1px solid #D6D6D6;
+	-webkit-appearance: none;
+}
+.subscribe form input[type="submit"]{
+	font-family: Arial, Geneva,Helvetica, sans-serif;
+	background: #F97E76;
+	color: #ffffff;
+	font-size: 0.8725em;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	width: 36.333%;
+	text-transform:uppercase;
+	position: absolute;
+	right: 10px;
+	line-height: 1.5em;
+	outline: none;
+}
+.subscribe form input[type="submit"]:hover{
+	background: #2E3641;
+}
+/* start span2_of_3 style */
+.rel_posts {
+	background: #ffffff;
+}
+.rel_posts h4{
+	font-family: Arial, Geneva,Helvetica, sans-serif;
+	background: #2E3641;
+	color: #ffffff;
+	padding: 10px;
+	text-transform: capitalize;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+.rel_post{
+	position: relative;
+	padding: 10px;
+}
+.rel_post1{
+	position: relative;
+	padding: 0 10px 10px;
+}
+.rel_post_para{
+	float:left;
+	width: 80.33333%;
+	margin-right: 3.33333%;
+}
+.rel_post_para span a{
+	display: block;
+	font-size: 1em;
+	color: #F97E76;
+}
+.rel_post_para span a:hover{
+	color: #9EB2C0;
+}
+.rel_post_para p a{
+	color: #9EB0BD;
+}
+.rel_post_para p a:hover{
+	color: #F97E76;
+}
+.rel_post_check{
+	float: right;
+	width: 14.3333%;
+}
+.rel_post_check a{
+	display: block;	
+}
+.checkbox {
+	position: relative;
+}
+.checkbox i {
+	cursor:pointer;
+	position: absolute;
+	bottom: -42px;
+	left: 0px;
+	display: block;
+	width: 32px;
+	height: 32px;
+	outline: none;
+	border: 2px solid #DDDDDD;
+}
+.checkbox input + i:after {
+	position: absolute;
+	opacity: 0;
+}
+.checkbox input + i:after {
+	content: '';
+	background: url("../images/img_sprite.png") no-repeat -41px -162px;
+	top: 6px;
+	left: 4px;
+	width: 24px;
+	height: 24px;
+	font: normal 12px/16px FontAwesome;
+	text-align: center;
+	cursor: pointer;
+}
+.checkbox input:checked + i:after {
+	opacity: 1;
+}
+.checkbox input {
+	position: absolute;
+	left: -9999px;
+}
+/* start copy */
+.copy{
+	margin-top: 10px;
+	text-align:center;
+}
+.copy p{
+	color: #2E3641;
+	font-size: 0.8725em;
+	line-height: 1.8em;
+	font-weight: 100;
+}
+.copy p a{
+	font-weight:600;
+	color: #FF9177;
+}
+.copy p a:hover{
+	color: #2E3641;
+}
