@@ -1,0 +1,85 @@
+<?php
+header("Content-type: text/html; charset=utf-8");
+
+require_once 'DkSdk.php';
+require_once '../../ext/Ext.php';
+require_once '../../models/PlatModel.php';
+require_once '../../socket/ConnectServer.php';
+$app_secret = 'e046c4fa351d2eabb239cf799bfcf2af';
+$amount = $_GET['amount'];     //成功充值金额
+$cardtype = $_GET['cardtype'];  //充值类型
+$orderid = $_GET['orderid'];  //订单id
+$result = $_GET['result'];    //充值结果
+$timetamp = $_GET['timetamp']; //订单成功时间
+$aid = $_GET['aid'];          //商品描述
+$clientsecret = $_GET['client_secret'];
+//$clientsecret = md5($amount.$cardtype.$orderid.$result.$timetamp.$app_secret.urlencode($aid));
+$Res = pay_result_notify_process($amount,$cardtype,$orderid,$result,$timetamp,$aid,$clientsecret,$app_secret);
+print_r($Res);
+
+function pay_result_notify_process($amount,$cardtype,$orderid,$result,$timetamp,$aid,$clientsecret,$app_secret)
+{
+    $thirdType = 4;
+    $MyAppKey = "UxPQvEsuqonAGBWg7NHwRDse";
+    $str = explode('_',$aid);
+    $uid = 0;
+    if($str&&is_array($str)){
+        $uid = $str[0];
+        $area_info = $str[1];
+    }else{
+        die("ERROR_FAIL");
+    }
+    if($uid==0){
+        die("ERROR_FAIL");
+    }
+    //按照API规范里的说明，把相应的数据进行拼接加密处理
+    $clientsecret_check = md5($amount.$cardtype.$orderid.$result.$timetamp.$app_secret.urlencode($aid));
+
+    //判断服
+    //$area_info = Ext::getInstance()->CheckAreaServer($area_info);
+
+    if($clientsecret_check == $clientsecret)
+    {
+        if ($result == 1)
+        {
+            $newdb = new PlatModel();
+            $selectOrderId = $newdb->selectPay($uid,$orderid,'platform_duoku_pay');
+            //验证是否充值过
+            if ($orderid == $selectOrderId)
+            {
+                echo "SUCCESS";
+            }
+            else
+            {
+                $sdkPaytime = time();
+                $insert = $newdb->insertPay($amount,$cardtype,$uid,$orderid,$area_info,$result,$timetamp,$sdkPaytime);
+                if($insert)
+                {
+                    $area = Ext::getInstance()->getArea($area_info);
+                    $gameMoney = $amount*10;
+                    $accountId = $newdb->selectThirdUserAccountId('platform_duoku_user',$area,$uid);
+                    $username = $newdb->selectThirdUserWzUsername('platform_duoku_user',$area,$uid);
+                    $socketClass = new ConnectGameServer();
+                    $socketClass->payToGameServer($area_info, $thirdType, $username, $accountId, $gameMoney, $orderid);
+                    $newdb->insertUserpaylog($uid, $thirdType, $orderid, $sdkPaytime, $area, $area_info, $amount, $accountId);
+                    echo "SUCCESS";
+                }
+                else
+                {
+                    echo '插入多酷订单失败';
+                }
+            }
+        }elseif($result==2){
+            echo "SUCCESS";
+        }
+        else
+        {
+            //
+            echo "无效订单";
+        }
+    }
+    else
+    {
+        echo "ERROR_SIGN";
+    }
+}
