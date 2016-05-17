@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="css/css.css"/>
+<link rel="stylesheet" type="text/css" href="css/select.css"/>
+<script type="text/javascript" language="javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/js/highcharts.js"></script>
+<script type="text/javascript" language="javascript" src="js/js/themes/grid.js"></script>
+<script type="text/javascript" language="javascript">
+ $(function () { 
+	    $('#cbox').highcharts({
+	        chart: {
+			 backgroundColor: '#fff',
+			   borderColor: '#fff',
+            borderWidth: 0,
+	            type: 'line'
+	        },
+	        title: {
+	            text: 'My first Highcharts 我的第一个图标'
+	        },
+	        xAxis: {
+	            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+	        },
+	        yAxis: {
+	           title: { text: 'Temperature (°C)' }
+	        },
+	        series: [{
+	           name: 'Tokyo', data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+	        }, {
+	            name: 'London', data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+	        }]
+	    });
+	});</script>
+<title>3卓网发号中心</title>
+</head>
+
+<body>
+<div class="mtzrl_box">
+<div class="mtzrl_header">
+    <h1 class="m_logo" id="caidan"><a href="#"></a></h1>
+     <p class="header_title">3卓网账号中心</p>
+    <div class="header_btn " id="per_logout">
+			<a href="#"></a>
+		</div>
+  </div>
+	  <div id="nav-box"  class="nav-box"><ul><li class="on"><a href="#">账户</a></li><li><a href="#">充值</a></li><li class="on"><a href="#">礼包</a></li><li><a href="#">论坛</a></li></ul></div>    
+        
+        <div class="job_menu">
+            <ul>
+                <li data-id="1"><a href="fahao.html" style="display:block;">礼包列表</a></li>
+              <li data-id="2"  class="job_default"><a href="cunhao.html" style="display:block;color:#ff330b;">存号箱</a></li>
+          </ul>
+        </div>
+        <div class="hot_com" id="cbox">
+          
+        </div>
+        <div class="job_pages">
+            
+<!-- AspNetPager V7.1 for VS2005 & VS2008  Copyright:2003-2007 Webdiyer (www.webdiyer.com) -->
+<div id="AspNetPager1" class="previous_next">
+<a disabled="disabled" style="margin-right:5px;">上一页</a><a class="previous_next" href="search.aspx@pageindex=2" style="margin-right:5px;">下一页</a>
+</div>
+<!-- AspNetPager V7.1 for VS2005 & VS2008 End -->
+
+<div class="footer">
+    
+    <ul class="copyright">
+      
+        <li>
+
+北京闪卓互动科技有限公司 版权所有 </li>
+    </ul>
+</div>
+
+    </div>
+    </div>
+</body>
+</html>
