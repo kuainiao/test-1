@@ -1,0 +1,274 @@
+/** forum::index **/
+.fl {border:0px solid {WRAPBORDERCOLOR};border-top:none;background:none;}
+.fl .bm {border:1px solid {WRAPBORDERCOLOR};margin-bottom:10px;padding:1px;}
+.fl .bm_h{border-top:0px solid {WRAPBORDERCOLOR};}
+.fl_icn_g {width:50px;}
+#category_grid {border-top:none;}
+#category_grid h4 span { background:#ddd;}
+#diy1 .title {height: 28px;line-height: 28px;overflow:hidden;font-family:"宋体";}
+#diy1 .frame-tab .tb {height: 28px;line-height: 28px;background:url({STYLEIMGDIR}/titlebg.png);padding-left:1px;font-family:"宋体";}
+#diy1 .frame-tab .tb-c {padding:4px 8px;height: 233px;overflow:hidden;}
+#diy1 .tb a {border: 0px solid #C3DCFD;border-left: 1px solid #e2e2e2;border-right: 1px solid #e2e2e2;}
+#diy1 .frame-tab .title .move-span {width: 80px;}
+#diy1 .kmlpic  {height: 269px;overflow:hidden;}
+#diy1 .xl ol li span {float:right;color:#999;}
+#diy1 .xl ol li span a{color:#999;}
+.temp {margin: 0;}
+/** end **/
+/** forum::forumdisplay **/
+.mlt li {border-color:#E0E7ED;}
+#f_pst {margin-bottom:5px;}
+#f_pst .bm_h{border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;}
+.bdl {background-color: #F8F8F8;border: 1px solid #E3E3E3;}
+.bdl dd.bdl_a a {background-color: #f8f8f8;}
+.bdl dt {border-color:#E3E3E3;}
+.boardnav .bml .bm_h {background:#fff url({STYLEIMGDIR}/portalbox_bg.gif) repeat-x;padding-left:10px;}
+.ie_all #f_pst {margin-bottom:10px;}
+.ie6 #f_pst {margin-bottom:4px;}
+#autopbn {border-color:{COMMONBORDER};}
+/** end **/
+/** group::viewthread,forum::viewthread **/
+.ts,.ts a{color:#d10000;}
+.pgbtn a.bm_h {height:31px;line-height:31px;border-color:{COMMONBORDER};}
+.pgbtn a.bm_h:hover {background:#fff;border-color:{COMMONBORDER};}
+/** end **/
+/** misc::ranklist **/
+.bid {padding-right:0px;margin-top:2px;margin-left:1px;}
+/** end **/
+/** portal **/
+.block {margin:0;}
+/** end **/
+/** portal::index **/
+.comiis_mt8{margin-top:8px;}
+.comiis_mb8{margin-bottom:8px;}
+.comiis_rad {border:solid 1px #d8d8d8;width:250px;overflow:hidden;}
+.Lnt li,.User_ li { height:33px; line-height:33px;}
+.Lnt li { padding:0 5px; float:left; color:#333333;}
+.Lnt li a { color:#333333;}
+.Lnt li a:hover,.User_ li a:hover { color:#fe0000; text-decoration:underline;}
+.Lnt .hm_ { background-position: 0 8px; padding-left:20px;}
+.Lnt .cs_ { background-position:5px -28px; padding-left:25px; }
+.User_ li.qq,.User_ li.l_dl,.logM_ .hy_ { background:none;}
+.logM_ .hy_ { padding:0; }
+.s1 .t {background-position:left -256px;}
+.s2 .t {background-position:-272px -256px;}
+.s3 .t {background-position:left -287px;}
+.s4 .t {background-position:left -318px;}
+.c3 .t { line-height:28px; height:28px; padding:0 10px 0 10px; font-weight:bold; color:#296ea0;}
+.c3 .t .m { float:right; font-weight:normal; color:#3366cc;}
+.stab .t { padding-left:1px;}
+.c3 .t .tab a { display:block; float:left; padding:0 12px 0 12px; border-right:solid 1px #d0dae4; font-weight:normal; color:#296ea0; text-decoration:none; background-position:-150px -190px; height:27px; overflow:hidden;}
+.c3 .t .tab a:hover,.c3 .t .tab .C { background-position:left -190px; font-weight:bold;}
+.LogoV3 { width:170px; height:50px; overflow:hidden; float:left; margin-right:10px;}
+.As3 .l { width:79px; border:solid 1px #d8d8d8;position:absolute; left:0; top:25px;background-color:#FFF; display:none; }
+.As3 .l dt a { display:block;padding-left:8px; font-size:12px; line-height:25px; background-image:none; text-align:left;}
+.As3 .l dt a:hover { text-decoration:none; background-color:#dbdbdb; color:#000;}
+.me .lc {padding:0 0 0 25px;}
+.me .lc a { color:#000;}
+.me .lc a:hover { color:#ef431f;}
+.c3 .c { border-left:solid 1px #d0dae4;border-right:solid 1px #d0dae4;}
+.c3 .b { height:3px; overflow:hidden;}
+.Ahs a:hover,.Ahs .cl { text-decoration:none; }
+.AntNewMain { width:960px; overflow:hidden; margin: 0 auto; padding-top:8px; clear:both;}
+.AntNewMain .Left { width:310px;height:400px;float:left;overflow:hidden;}
+.AntNewMain .Right { width:640px; float:right;}
+.AntNewUser .Left { width:2px; height:38px; background:url({STYLEIMGDIR}/comiis_ico.gif) -4px -39px; float:left;}
+.AntNewUser .User .Left_L { width:600px!important; *width:600px!important; width:610px;}
+.AntNewDB .Left { width:700px; height:auto; overflow:hidden; float:left;}
+.AntNewsList .Left { width:640px; height:auto; overflow:hidden; float:left;}
+.AntNewsList .Left .Content { width:638px; height:auto; overflow:hidden; border:solid 1px #d3dbe6;}
+.AntNewsList .Left .Content .AntLocation { height:30px; overflow:hidden; background:#f7f7f7; line-height:2.5em; padding-left:20px;}
+.AntNewsList .Left .Content .AntLocation a {color:#333333;}
+.AntNewsList .Left .Content .AntLocation .A { color:#cc0000;}
+.AntNewsList .Left .Content .AntLocation .SetTDate { margin:2px 2px 0px 0px; display:block; width:140px; height:24px; float:right; background:url({STYLEIMGDIR}/comiis_ico.gif) -805px -127px;}
+.AntNews_reply .Left_Tico {margin:0 auto; font-size:14px; font-weight:bold; color:#f54100; margin-left:60px;}
+.AntNewUser .Right { width:2px; height:38px; float:right; background:url({STYLEIMGDIR}/comiis_ico.gif) -17px -39px;}
+.AntNewDB .Right { width:252px; height:auto; overflow:hidden; float:right;}
+.AntNewsList .Right { width:300px; height:auto; overflow:hidden; float:right;}
+.aboutquan_mod .rightButton div{margin-left:6px;}
+.aboutquan_mod .rightButton .off{background-position:-31px -50px;}
+.aboutquan_mod .rightButton .on{background-position:-31px 0;cursor:pointer;}
+.AntNewTop { width:638px; border:solid 1px #d8d8d8;}
+.AntNewTop .Lin {height:103px; background:url({STYLEIMGDIR}/comiis_18.gif); border:solid 1px #FFFFFF;}
+.AntNewTop .NewsTop_ { width:80px; padding:15px 0 0 15px;float:left;}
+.AntNewTop .Lin p { width:590px; height:46px; overflow:hidden; margin:0 auto; padding-top:4px;}
+.AntNewTop .Lin p a { color:#333333;}
+.AntNewTop .Lin h2 { display:block; width:500px; height:45px; line-height:45px; overflow:hidden; }
+.AntNewTop .Lin h2 a{font-family:microsoft yahei,simhei;font-size:24px;font-size-adjust:none;font-style:normal;font-variant:normal; font-weight:900;}
+.AntNewTop .Lin h2 a:hover{font-family:microsoft yahei,simhei;font-size:24px;font-size-adjust:none;font-style:normal;font-variant:normal; font-weight:900; text-decoration:none;}
+.AntNewsPictures .imgup,.AntNewsPictures .newslist h2 { background-image:url({STYLEIMGDIR}/comiis_19.gif);}
+.AntNewsPictures { width:auto; height:287px; overflow:hidden; margin-top:6px;}
+.AntNewsPictures .imgup { width:433px; height:287px; float:left;}
+.AntNewsPictures .imgup h2 { font-size:14px; line-height:32px; text-indent:1em;}
+.AntNewsPictures .imgup ul { width:415px; position:relative; left:17px;}
+.AntNewsPictures .imgup li { float:left; padding-right:10px; height:125px; overflow:hidden;}
+.AntNewsPictures .newslist { width:200px; height:287px; float:right; overflow:hidden;}
+.AntNewsPictures .newslist h2 { width:200px; height:28px; background-position:-434px top; font-size:14px; line-height:32px; overflow:hidden; text-indent:10px;}
+.AntNewsPictures .newslist div.comiie_lsx { width:198px; height:253px; overflow:hidden; border:solid 1px #b6d3eb;border-bottom:solid 0px #b6d3eb; border-top:0;}
+.AntNewsPictures .newslist ul { width:198px; height:235px; overflow:hidden; padding:10px 0 0 0;}
+.AntNewsPictures .newslist ul li { width:180px; height:24px; line-height:24px; overflow:hidden; margin: 0 auto;}
+.AntNewsPictures .newslist ul li a,.AntNewsPictures .newslist ul li a:link,.AntNewsPictures .newslist ul li a:visited { color:#3b3b3b;}
+.AntNewsPictures .t { width:128px; height:25px; line-height:25px; overflow:hidden; text-align:center;}
+.NewsUpfile,.NewsUpfile a,.NewsUpfile div {width:120px; height:90px; overflow:hidden;}
+.NewsUpfile {padding:3px; border:solid 1px #dcdddd;}
+.NewsUpfile a {display:table-cell;vertical-align:middle;text-align:center;outline:none;*display:block;*font-family:Arial;*font-size:82px;}
+.NewsUpfile img{vertical-align:middle;width:120px;height:90px; margin: 0 auto;}
+.AntNewClass .NewsUpfile,.AntNewClass  .NewsUpfile a,.AntNewClass  .NewsUpfile div{width:108px; height:78px; overflow:hidden;}
+.AntNewClass .NewsUpfile {padding:0px; border:solid 0px #dcdddd;}
+.AntNewClass .NewsUpfile a {display:table-cell;vertical-align:middle;text-align:center;outline:none;*display:block;*font-family:Arial;*font-size:0px;}
+.AntNewClass .NewsUpfile img{vertical-align:middle;width:100px;height:70px; margin: 0 auto;padding:3px; border:solid 1px #dcdddd;}
+.Ant-Cl .NewsUpfile { float:left;}
+.AntNewsTop .Titlekm { height:11px; overflow:hidden; background:url({STYLEIMGDIR}/comiis_ico.gif) -453px -126px;}
+.AntTodayHot .Titlekm { line-height:29px; padding:0px 10px 0px 20px; width:446px; height:29px; overflow:hidden; background:url({STYLEIMGDIR}/comiis_20.gif);font-size:14px;font-weight:bold;}
+.AntTodayHot .Titlekm a { float:right; font-size:12px; font-weight:normal;}
+.AntTodayHot .Tit { width:128px; text-align:center; overflow:hidden; line-height:25px; height:25px;}
+.AntTodayHot .Tit a,.AntTodayHot .Tit a:link,.AntTodayHot .Tit a:visited { color:#CC0000;}
+.AntTodayHot .Content .Pho .Titlekm_ { margin:0 auto; text-align:center; display:block; width:120px; height:25px; line-height:25px; overflow:hidden; color:#ec1818;}
+.AntNewPicture .Titlekm { overflow:hidden; height:31px; background:url({STYLEIMGDIR}/comiis_ico.gif) left -81px;font-weight:bold; color:#FFFFFF; line-height:36px; padding:0px 10px 0px 40px;font-size:14px;}
+.AntNewPicture .Titlekm a { float:right; font-size:12px; font-weight:normal; color:#777;}
+.AntNewPicture ul li .t { width:128px; height:25px; line-height:25px; overflow:hidden; text-align:center;}
+.AntNewClass .Titlekm { line-height:36px; overflow:hidden; height:31px; background:url({STYLEIMGDIR}/comiis_ico.gif) left -120px;}
+.AntNewClass .Titlekm div { width:240px; float:right; height:35px; line-height:35px; overflow:hidden; text-align:right;padding-right:5px;}
+.AntNewClass .Titlekm div a {color:#00479b; margin-right:5px; white-space:nowrap; }
+.AntNewClass .Titlekm div a:hover { color:#CC0000;}
+.AntNewClass .Titlekm b { font-size:14px; color:#FFFFFF; padding-left:20px; }
+.AntNewClass .Titlekm b a,.AntNewClass .Titlekm b a:hover,.AntNewClass .Titlekm b a:visited { font-size:14px; color:#FFFFFF; }
+.AntNewClass .Content .Titlekm_ { width:310px;height:33px;line-height:35px;margin:0 auto; font-size:14px; font-weight:bold;overflow:hidden;}
+.AntNewClass .Content .Titlekm_ a { font-weight:bold;}
+.AntNewClass .Content .Titlekm_ a:hover { text-decoration:none;}
+.AntRightInfo .Titlekm { height:30px; overflow:hidden; background:url({STYLEIMGDIR}/comiis_ico.gif) repeat 0 -173px;overflow:hidden;}
+.AntRightInfo .Titlekm .Tabkm a { position:relative; margin-left:-1px; line-height:2em; display:block; width:84px; height:31px; overflow:hidden; float:left; text-align:center;}
+.AntRightInfo .Titlekm .Tabkm .Current { position:relative; font-weight:bold; text-decoration:none; color:#FFFFFF;line-height:36px; display:block; width:76px; height:31px; overflow:hidden; float:left; text-align:center;padding-left:12px;font-size:14px;}
+.AntRightInfo .Titlekm .Mor { float:right; color:#777; line-height:31px; margin-right:8px;}
+.AntRightInfo .Titlekm .Mor:hover { color:#CC0000;}
+.AntNewsRightList .Titlekm { font-weight:bold; color:#FFFFFF; line-height:2.2em; padding:0px 10px 0px 20px; overflow:hidden; height:31px; background:url({STYLEIMGDIR}/comiis_ico.gif) -1px -465px;}
+.AntNewsRightList .Titlekm a { float:right; font-weight:normal; color:#046db9;}
+.AntNewsRightList .Content .Picture li .t { width:128px; height:25px; line-height:25px; overflow:hidden; text-align:center;}
+.AntArticleTitle .titBar { zoom:1;padding:0px 5px; margin-right:90px;position:relative; padding-bottom:15px;}
+.AntNewsComment .Titlekm { font-weight:bold; font-size:14px; color:#1c2c58; padding:15px 0px 10px 20px;}
+.AntNewsCommentList .c ul li .t { width:128px; height:25px; line-height:25px; overflow:hidden; text-align:center;}
+.AntNews_reply .Titlekm_reply { font-size:14px; color:#0b3b8c; font-weight:bold; width:615px; height:29px; overflow:hidden; line-height:2.3em; padding:0px 15px 0px 10px; background:url({STYLEIMGDIR}/comiis_26.gif) repeat-x;}
+.AntNews_reply .Titlekm_reply a { float:right; font-weight:normal; color:#0b3b8c;}
+.AntNews_reply .Titlekm_reply a:hover { color:#CC0000;}
+.AntNews_reply .Titlekm_reply a span { color:#cc0000;}
+.AntNews_reply .Titlekm_reply font { color:#666666; font-size:12px; font-weight:normal;}
+.AntNews_reply .Titlekm_reply span { color:#cc0000; }
+.AntNewsInfo { width:960px; height:auto; overflow:hidden; margin: 0 auto; padding:8px 0px;}
+.AntNewsInfoList { width:580px; height:auto; overflow:hidden; margin: 0 auto;}
+.AntNewsInfoList ul li { width:580px; overflow:hidden; height:25px; line-height:25px;}
+.AntNewsInfoList .Date{ float:right; color:#999999;}
+.AntNewsInfoList a:hover { color:#CC0000;}
+.AntNewsInfoList .News {color:#999999;}
+.AntNewsInfoList .Date:visited,.AntNewsInfoList .News:visited { color:#999999;}
+.AntNewsInfoList .Info { font-size:14px; margin-left:5px; }
+.AntTodayHot { width:476px; float:left; height:auto; overflow:hidden;}
+.AntTodayHotR { float:right;}
+.AntTodayHot .Content { width:474px; height:auto; overflow:hidden; border:solid 1px #d8d8d8;border-bottom:solid 0px #d8d8d8; padding:13px 0px 3px 0px;}
+.AntTodayHot .Content ul li { height:25px!important; *height:22px!important; height:22px;}
+.AntTodayHot .Content ul li a { display:block; height:20px; line-height:20px; }
+.AntTodayHot .Content ul li .Ant1 { color:#3b3b3b;overflow:hidden;}
+.AntTodayHot .Content ul li .Ant2 { float:right; color:#ec1818;padding-right:10px;padding-left:5px;}
+.AntTodayHot .l { width:130px; height:auto; overflow:hidden; padding:0 10px 0 12px; float:left;}
+.AntNewsTop .Content{ width:244px; height:auto; overflow:hidden; border-left:solid 3px #d9d9d9; border-right:solid 3px #d9d9d9; border-bottom:solid 3px #d9d9d9; background:#FFFFFF; font-size:14px; color:#333333; padding-bottom:0px!important; *padding-bottom:0px!important; padding-bottom:10px;}
+.AntNewsTop .Content ul { width:240;height:auto; overflow:hidden; padding:10px;}
+.AntNewsTop .Content ul li { float:left;}
+.AntNewsTop .Content ul li a { display:block; width:54px; height:30px;}
+.AntNewsTop .Content ul li a:hover { background:#dc0000; text-decoration:none; color:#FFFFFF;}
+.AntNewsTop .Content ul li .AntCurrent {display:block; width:54px; height:30px;background:#dc0000; text-decoration:none; color:#FFFFFF;}
+.AntNewClass .Content { width:343px; height:259px; overflow:hidden; border-left:solid 1px #d8d8d8; border-right:solid 1px #d8d8d8; border-top:solid 1px #d8d8d8;}
+.AntNewClass .Content .Pho {width:130px; float:left; text-align:center;}
+.AntNewClass .Content .Pho img { width:100px; padding:1px; border:solid 1px #dadada;}
+.AntNewClass .Content .New_ { clear:both; font-size:14px; width:320px; padding:7px 0px 5px 0px; margin:0 auto; background:url({STYLEIMGDIR}/comiis_21.gif) repeat-x left -35px;}
+.AntNewClass .Content .New_ li { width:300px; height:25px; line-height:25px; overflow:hidden;}
+.AntNewClass .Content .New_ li a:hover { color:#CC0000;}
+.AntNewClass .Content .New_ .Class { color:#666666; margin-right:5px;}
+.AntRightInfo .Content { border:solid 1px #d8d8d8;border-bottom:solid 0px #d8d8d8;padding-top:5px;height:auto;overflow:hidden;}
+.AntRightInfo .Content ul { background:url({STYLEIMGDIR}/comiis_23.gif) no-repeat left top; margin:0px 0px 0px 9px;}
+.AntRightInfo .Content li { padding-left:25px; height:25px; line-height:25px; overflow:hidden; width:200px;}
+.AntRightInfo .Content li a { color:#3f4040;}
+.AntRightInfo .Content li a:hover { color:#CC0000;}
+.AntNewsRightList .Content { padding:10px 0px 5px 0px; width:298px; height:auto; overflow:hidden; border-left:solid 1px #e3e3e3; border-right:solid 1px #e3e3e3; border-bottom:solid 1px #e3e3e3;}
+.AntNewsRightList .Content .Picture { width:300px; height:auto; overflow:hidden; padding:5px 0 0 0;}
+.AntNewsRightList .Content .Picture li { width:128px; float:left; padding:0 0 7px 14px;}
+.AntNewsRightList .Content .News { margin-left:15px; background:url({STYLEIMGDIR}/comiis_23.gif) no-repeat left top;}
+.AntNewsRightList .Content .News li{padding-left:25px; height:25px; line-height:25px; overflow:hidden; width:250px;}
+.AntNewsRightList .Content .News li a { color:#3f4040;}
+.AntNewsRightList .Content .News li a:hover { color:#CC0000;}
+.AntArticleContent .Content_ { width:600px; height:auto; overflow:hidden; margin: 0 auto;}
+.AntArticleContent .Content_ p img{ padding:5px;}
+.AntArticleContent .Content_ img {max-width: 590px;}
+*html .AntArticleContent .Content_ img {width: expression(this.width > 590 && this.width > this.height ? 590: true);}
+.AntNewsComment .Content_Comment { text-align:center;}
+.AntNewsTop .Logo { width:200px; float:left; padding-top:5px;}
+.AntDateTime .lh20 {line-height:20px;}
+.AntHouseDetail .ListRight {margin-top:5px; width:270px; height:auto; overflow:hidden; float:right; clear:right;}
+.Ant-page .l,.Ant-page .r { width:300px; height:25px; line-height:25px; overflow:hidden; text-indent:3px;}
+.Ant-page .l { float:left;}
+.ant2class { width:600px; height:auto; overflow:hidden; border:solid 1px #d6e2fa; background:#f2f6fe; margin: 0 auto; margin-top:10px; padding:7px 0 0 7px; _padding-bottom:10px;}
+.ant2class li { padding:0 5px 0 7px; float:left; text-align:center; height:15px; line-height:15px; white-space:nowrap; border-right:solid 1px #d3dbe6; margin-bottom:8px;}
+.ant2class li a { padding:3px;}
+.ant2class li a:hover { background:#CC0000; color:#FFFFFF; text-decoration:none;}
+.AntNewPicture { width:960px; height:auto; overflow:hidden; margin: 0 auto; }
+.AntNewPicture .c { padding:10px 0px 0px 5px; width:953px; height:auto; overflow:hidden; border-top:solid 1px #d8d8d8; border-left:solid 1px #d8d8d8; border-right:solid 1px #d8d8d8;}
+.AntNewPicture ul { height:auto; overflow:hidden; margin: 0 auto; padding:7px 0 0 20px;}
+.AntNewPicture ul li { width:155px; float:left; padding:0 0 10px 0;}
+.AntNewPicture .Bottom { height:5px; overflow:hidden; background:url({STYLEIMGDIR}/comiis_ico.gif) left -113px;}
+.AntNewsTop .City { float:left; color:#666666; line-height:2.5em; padding:20px 0px 0px 15px;}
+.AntNewsTop .CurrentCity { height:25px; overflow:hidden; border:solid 1px #c6dece; background:url({STYLEIMGDIR}/comiis_10.gif) repeat-x; color:#666666; line-height:2.3em; text-align:center; width:120px; cursor:pointer;}
+.AntMenu ul li .Current {font-weight:bold; text-decoration:none;}
+.AntSkin1 .Current {background:url({STYLEIMGDIR}/comiis_ico.gif) -347px -42px; color:#4f9420;}
+.AntSkin1 .Current:visited { color:#4f9420;}
+.AntSkin1 .Current:hover {color:#4f9420;}
+.AntSkin2 .Current {background:url({STYLEIMGDIR}/comiis_ico.gif) -264px -42px; color:#0069b3;}
+.AntSkin2 .Current:visited { color:#0069b3;}
+.AntSkin2 .Current:hover {color:#0069b3;}
+.AntSkin3 .Current {background:url({STYLEIMGDIR}/comiis_ico.gif) -30px -42px; color:#b00000;}
+.AntSkin3 .Current:visited { color:#b00000;}
+.AntSkin3 .Current:hover {color:#b00000;}
+.AntSkin4 .Current {background:url({STYLEIMGDIR}/comiis_ico.gif) -431px -42px; color:#336699;}
+.AntSkin4 .Current:visited { color:#336699;}
+.AntSkin4 .Current:hover {color:#336699;}
+.AntSkin5 .Current {background:url({STYLEIMGDIR}/comiis_ico.gif) -768px -42px; color:#cc6600;}
+.AntSkin5 .Current:visited { color:#cc6600;}
+.AntSkin5 .Current:hover {color:#cc6600;}
+.AntSkin6 .Current {background:url({STYLEIMGDIR}/comiis_ico.gif) -684px -42px; color:#ad7f23;}
+.AntSkin6 .Current:visited { color:#ad7f23;}
+.AntSkin6 .Current:hover {color:#ad7f23;}
+.AntSkin7 .Current {background:url({STYLEIMGDIR}/comiis_ico.gif) -598px -42px; color:#FFFFFF;}
+.AntSkin7 .Current:visited { color:#FFFFFF;}
+.AntSkin7 .Current:hover {color:#FFFFFF;}
+.AntSkin8 .Current {background:url({STYLEIMGDIR}/comiis_ico.gif) -515px -42px; color:#009933;}
+.AntSkin8 .Current:visited { color:#009933;}
+.AntSkin8 .Current:hover {color:#009933;}
+.AntNewUser .Center { width:946px; float:left;}
+.AntDateTime .ctd01{padding-top:2px;font-family:Arial; font-size:10px;background:#efefef;text-align:center;color:#686868; height:15px;}
+.AntDateTime .ctd01 a:link,.AntDateTime .ctd01 a:visited {text-decoration: none;color:#686868;}
+.AntDateTime .ctd01 a:active,.ctd01 a:hover {text-decoration: underline;color:#f00;}
+.AntDateTime .ctd02{padding-top:2px;font-family:Arial; font-size:10px;background-color:#666;color:#fff;text-align:center; height:15px;}
+.AntDateTime .ctd02 a:link,.AntDateTime .ctd02 a:visited {text-decoration: none;color:#fff;}
+.AntDateTime .ctd02 a:active,.AntDateTime .ctd02 a:hover {text-decoration: underline;color:#ff0;}
+.AntNewsCommentList .c { width:620px; height:120px; overflow:hidden; position:relative;}
+.AntNewsCommentList .c ul { height:auto; overflow:hidden; margin: 0 auto; padding:0 0 0 10px;}
+.AntNewsCommentList .c ul li { width:140px; float:left; padding:0 0 10px 0;}
+.AntNewsCommentList .cc { height:auto; padding:20px 0 0 0;}
+.AntNewsCommentList .cc ul li { width:150px;}
+.AntNewsComment .cc { height:auto; padding:20px 0 0 0;}
+.AntNewsComment .cc ul li { width:150px;}
+.AntNewClass .Bottom { height:5px; background:url({STYLEIMGDIR}/comiis_ico.gif) left -153px;overflow:hidden;}
+.AntRightInfo .Bottom { height:5px; background:url({STYLEIMGDIR}/comiis_ico.gif) left -206px;overflow:hidden;}
+.AntTodayHot .Bottom { height:5px; background:url({STYLEIMGDIR}/comiis_ico.gif) left -222px;overflow:hidden;}
+.newslist .Bottom { height:5px; background:url({STYLEIMGDIR}/comiis_ico.gif) left -239px;overflow:hidden;}
+.AntNewDB { width:960px; height:auto; overflow:hidden; margin:0 auto; padding-top:10px;}
+.AntNewClass { width:346px;overflow:hidden; float:left;margin-bottom:8px;}
+.AntNewClassR { float:right;}
+.Ant-Cl { width:315px; margin: 0 auto; overflow:hidden; height:80px; margin-bottom:10px;}
+.Ant-Cl .New { width:200px; float:right;line-height:27px;color:#888;}
+.Ant-Cl .New a {color:#f60;}
+.AntRightInfo { width:252px; height:auto; overflow:hidden;}
+.hidden{display:none}
+.ldafd{width:320px;float:right;}
+.AntNewPicturekm .Titlekm { overflow:hidden; height:31px; background:url({STYLEIMGDIR}/comiis_ico.gif) left -81px;font-weight:bold; color:#FFFFFF; line-height:36px; padding:0px 10px 0px 40px;font-size:14px;}
+.AntNewPicturekm .Titlekm a { float:right; font-size:12px; font-weight:normal; color:#777;}
+.AntNewPicturekm .c { padding:10px 0px 0px 10px; width:948px; height:auto; overflow:hidden; border-top:solid 1px #d8d8d8; border-left:solid 1px #d8d8d8; border-right:solid 1px #d8d8d8;}
+.AntNewPicturekm .Bottom { height:5px; overflow:hidden; background:url({STYLEIMGDIR}/comiis_ico.gif) left -113px;}
+/** end **/

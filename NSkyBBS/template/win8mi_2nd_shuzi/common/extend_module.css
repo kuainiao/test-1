@@ -1,0 +1,124 @@
+/** forum::index **/
+#chart { margin-bottom: 0}
+#an li { width: 400px}
+#an li span { width: 325px}
+.fl { border: none}
+.fl .bm { margin-top: 5px}
+.ie6 .fl .bm { margin-top: 5px}
+.fl .bm_h, .bm_h, .bmw .bm_h { background: none; font-family: 'Microsoft YaHei'; font-weight: normal; height: 40px; line-height: 40px; padding: 0; border:none; border-bottom: 3px solid #F6F6F6; margin-bottom: 0}
+.fl .bm_h h1 { font-weight:normal}
+.fl_g dt { height:30px; line-height:30px; font-size:16px; font-family:'Microsoft YaHei';font-weight: normal;}
+.fl_g dl dd { margin-bottom:5px;}
+.fl_row td { border: none;}
+.fl_tb td, .fl_tb tr { -moz-transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s}
+.fl_tb h2 { font-size:16px;}
+.flg_b1 { background: none}
+.flg_b2 { background: none}
+.fl_tb .flg_b1:hover, .fl_tb .flg_b2:hover { background: #FFFFFF}
+.bmw .bm_h a { color: rgb(51, 51, 51)}
+#category_lk.bm_c.ptm { padding: 10px 0; border: 0}
+/*N格重定义*/
+.bbs_top { width: 980px; height: 270px; margin-bottom: 20px; _margin-bottom: 20px; overflow: hidden}
+.bbs_index_thum { width: 450px}
+.frame-1-1 { position: relative}
+.frame-1-1-l { width: 450px; position: absolute; top: 0; left: 0; float: none}
+.frame-1-1-r { margin-left: 465px; width: auto; float: none}
+.frame-title, .frametitle, .tab-title { background: none}
+.frame-tab .tb { line-height:normal; padding-left:0; height:31px;}
+.frame-tab .tb li a { font-weight:normal; font-size:12px; height:31px; line-height:31px; border:none; background: #EEEEEE}
+.frame-tab .tb .a a { font-weight:normal;  background: #57BAE8; color: #FFFFFF}
+.frame-tab .tb-c { padding: 10px 0}
+/** end **/
+
+
+/* 大分页按钮 */
+.pgbtn { margin: 5px 0 10px; }
+.pgbtn a { display: block; height: 40px; line-height: 40px; letter-spacing: 5px; text-align: center; border: 1px solid #DCDCDC; background: #F5F5F5 url({STYLEIMGDIR}/bg_pgbtn.png) repeat-x 0 0; font-size: 14px; outline: none; border-radius: 5px; box-shadow: 0 1px 0 #F5F5F5; }
+.pgbtn a:hover { border-color: #BABABA; text-decoration: none; }
+.pgbtn a:active { background: #EEE; border-color: #D0D0D0; box-shadow: none}
+
+
+
+/** forum::index,forum::forumdisplay,home::space,forum::guide **/
+.tl th, .tl td { border-bottom-color: #EEEEEE;  -moz-transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s}
+.tl .th th, .tl .th td { background: #F2F2F2}
+/** end **/
+
+
+
+
+
+/** forum::post **/
+#e_menus .p_pop a{ padding: 5px 12px}
+/** end **/
+
+
+
+
+/** forum::viewthread,forum::forumdisplay,forum::post,forum::guide,group **/
+#newspecial_menu a { padding:10px 0 10px 30px;}
+#newspecial_menu li:hover { background-color:#F3F3F3;}
+#newspecial_menu a:hover { text-decoration:none;}
+#f_pst .plc { padding:0 20px;}
+#f_pst .tedt { margin-top:0 !important; border-color: #DEDEDE;}
+#visitedforums_menu a { height:auto; width:100%; padding:10px;}
+#v_threads li, #v_forums li { padding-left:0; background:none; height:auto;}
+/** end **/
+
+
+
+
+
+/** portal::index**/
+body { background: none}
+/** end **/
+
+
+
+
+/** portal::list, portal::index, portal::view**/
+#slider { width: 320px; height: 250px; position: relative; }
+#slider ul { list-style-type: none; width:320px; height:250px; }
+#slider ul li { position: absolute; left: 0; top: 0; width:320px; height:250px; }
+.pg { float: left;}
+.pg a, .pgb a, .pg label, .pg strong { margin-right: 5px; margin-left: 0}
+.ds-avatar { margin-top: 5px}
+.ds-meta { height:24px; line-height:24px; width:222px; float:right}
+.sidebar ul#ds-recent-comments li.ds-comment .ds-thread-title { line-height:22px; margin-bottom:20px}
+.sidebar ul#ds-recent-comments li.ds-comment { border-top: 1px dotted gainsboro}
+.sidebar ul#ds-recent-comments li.ds-comment { margin: 15px 0 0 !important}
+.sidebar ul#ds-recent-comments li.ds-comment .ds-avatar { top: 10px !important}
+.sidebar ul#ds-recent-comments li.ds-comment .ds-avatar img{ width:32px; height:32px}
+.ds-excerpt { text-indent: 23px; background: url({STYLEIMGDIR}/quote.png) no-repeat 0px -1px}
+.socialwrap a{ float: left; display: block; width: 85px; height: 87px}
+/** end **/
+
+
+/** portal::list, portal::index, portal::view**/
+#isofeatured { height:504px !important;}
+/** end **/
+
+
+/** portal::portalcp **/
+.bml .bm_c { padding:0}
+/** end **/
+
+
+/** plugin **/
+body.pg_win8mi_waterfall { background: none}
+.pg_win8mi_waterfall .bodycontainer .nav { margin: 0 10px}
+.pg_win8mi_waterfall .bodycontainer .logo { margin-left: 10px}
+
+.pg_win8mi_waterfall .bodycontainer .headerwidget { margin-right: 10px}
+.pg_win8mi_waterfall .fixed-nav .nav { border-bottom:none; background: #EEEEEE}
+.pg_win8mi_waterfall .fixed-nav .nav li.cur a { background-color: #00A498}
+.pg_win8mi_waterfall .fixed-nav .nav li a:hover, .pg_win8mi_waterfall .fixed-nav .subnav li.spaces_cur a { background-color: #999999}
+.pg_win8mi_waterfall #umnav_menu { margin-left: 0}
+.pg_win8mi_waterfall a.plm_bg { transition:none;  -moz-transition: none; -webkit-transition: none; -o-transition: none}
+.pg_win8mi_waterfall .pg a:hover { background-color: transparent; color: #00A498}
+/** end **/
+
+
+/** member **/
+.bm_c { padding:0;}
+/** end **/

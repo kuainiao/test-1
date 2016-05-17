@@ -1,0 +1,120 @@
+/* Break-pt menu
+----------------------------------------------------------------------------------------------------*/
+body { background: #F5F5F5}
+#pt { margin: 5px 0  0 0; padding: 5px 0 !important}
+#pt .z a, #pt .z em, #pt .z span { color: #333333; height: 32px; line-height: 32px; text-decoration: none}
+.pgs { border-bottom: 0 !important}
+.bbda { border-bottom: 1px solid #EEEEEE}
+.bm_h { border-bottom: 0 !important; margin-bottom: 0 !important}
+.mtm { position: relative}
+.p_opt { left: 40px !important; top: 30px !important}
+.ptitle { float: left; width: 360px; margin-top: 20px}
+.ptitle a { height: 40px; font-size: 20px; font-weight: 700; color: #333333; overflow: hidden}
+.pcontent { float: left; width: 360px; font-size: 14px; color: #333333; margin-top: 10px}
+.pcontent p { font-size: 13px; color: #333333; padding-top: 30px}
+.pmore { float: left; width: 360px}
+#comment_ul ul { float: left; width: 650px; padding-left: 0}
+#comment_ul .mbm { position: relative}
+#comment_ul .portrait { float: left; width: 50px}
+#comment_ul .commentright { float: right; width: 600px}
+#comment_ul .portrait img { width: 30px;height: 30px;max-width: 100%;vertical-align: top;border-radius: 50% 50% 50% 50%}
+#comment_ul .username { margin-right: 10px}
+#comment_ul .xg1, #comment_ul .xg1 a { color: rgb(204, 204, 204) !important}
+/* Break-pt end*/
+
+
+.pg a, .pg strong, .pgb a, .pg label {
+    float: left;
+    display: inline;
+    margin-left: 4px;
+    padding: 0px 8px;
+    height: 26px;
+	line-height: 26px;
+    border: 1px solid rgb(194, 213, 227);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    color: rgb(51, 51, 51);
+    overflow: hidden;
+    text-decoration: none;
+}
+.pg label .px { margin-top: -1px}
+.pg a, .pg strong, .pgb a, .pg label, .pg a.nxt {
+    float: none;
+    border: 0px none;
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+    font-weight: normal;
+    padding: 0px 10px;
+    display: inline-block;
+	border-radius: 3px;
+	background: #FFFFFF
+}
+.pg strong, .pg a.nxt {
+    background-color: rgb(189, 194, 200) !important;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+}
+.pg a:hover, .pgb a:hover {
+    border-color: rgb(51, 102, 153);
+    color: rgb(51, 102, 153);
+	background: #FFFFFF
+}
+.shadowbox { box-shadow: 0px 1px 7px rgb(188, 188, 188); border-radius: 10px; padding: 10px 15px; margin-bottom: 30px; background: #FFFFFF}
+.righttit { height: 40px; line-height: 40px; border-bottom: 2px solid #F2F2F2}
+.righttit h3 { font-size: 16px; color: #999999}
+.hotnews { margin: 15px 0}
+.hotnews li { line-height: 22px; font-size: 14px; padding: 0 0 15px 0; color: #333333}
+
+/* 评论样式 */
+.tedt {
+    border: medium none;
+    width: 650px;
+    overflow: hidden;
+}
+.tedt .pt {
+    width: 626px !important;
+    min-height: 100px;
+    padding: 8px 10px !important;
+    line-height: 1.6;
+    border: 1px solid rgb(217, 217, 217);
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+    vertical-align: middle;
+    resize: vertical;
+    color: rgb(130, 138, 147);
+}
+.tedt .pt.bgchange {
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgb(230, 230, 230);
+    color: rgb(187, 187, 187);
+}
+.tedt .area { padding: 0 !important}
+
+/** portal::view **/
+.bm { margin-top: 5px}
+.maincontent .vw .h { padding-bottom: 0}
+#nv_portal .vw .h, #nv_portal .vw .s, #nv_portal .vw .d, #nv_portal .vw .o, #nv_forum .vw .h, #nv_forum .vw .s, #nv_forum .vw .d {margin-right: 0;margin-left: 0}
+#wp .maincontent { border-top:none; margin-top:0}
+#wp .sidebar { margin-top: 5px}
+.maincontent .vw .h { border: none; text-align: left}
+.maincontent .vw .ph { font-size: 30px; padding-bottom: 30px; border-bottom: 2px solid #BCC0C4; color: #666666}
+.maincontent .vw .s { color: #57BAE8; float:right; width:50%; margin:0; border:none; padding:0; text-indent:25px; background: url(quote.png) no-repeat 0 3px}
+.ie6 .maincontent .vw .s { width: 45%}
+.pbm a { margin-right: 5px}
+.featuredimage { margin-bottom: 25px;min-height: 50px;background: url(loading.gif) center no-repeat}
+#wp .blogpost .bubble.comments { margin-top: 0}
+.leftblogcontent { float: left; margin-right: 0; width: 45%}
+.single .sidebar { margin-top: -8px; padding-top: 35px}
+.categories { padding-bottom: 15px}
+.blogpost .categories { float: left; margin-top: 7px; padding-bottom: 0}
+.blogpost .bubble.comments { float: right; margin-top: 7px; display: block; top: 0; bottom: auto}
+.blogpost .details { margin-bottom: 18px; padding: 15px; background: #F2F2F2}
+ul.authorinfo { float: left; margin-bottom: 0; max-width: 200px}
+ul.authorinfo li { list-style-type: none; margin-left: 0; margin-bottom: 5px}
+.details img { float: left; margin-right: 15px; border-radius: 100px; -moz-border-radius: 100px}
+.blogpost .details .name { font-size: 15px; margin-bottom: 3px; padding-bottom: 3px; border-bottom: 1px solid #DCDCDC}
+#article_content p { margin-bottom: 10px}
+#comment .bm_c { padding: 0}
+#comment .tedt .pt { height: 100px}
+#comment .bm_h h3{ font-size: 18px}
+/** end **/

@@ -1,0 +1,693 @@
+/* ----------------------------------
+
+Main CSS file for metro.
+http://www.shidai123.net.
+Created by joe.
+
+-------------------------------------*/
+
+
+/* 总体样式
+----------------------------------------------------------------------------------------------------*/
+body, input, button, select, textarea { font: 12px/1.5 "microsoft yahei"; color: rgb(105, 105, 105)}
+#plugin_notice .bm_h a { padding-right: 10px}
+#plugin_notice .bm_c { padding: 0 10px !important}
+.wp { width: 980px}
+#chart { overflow: hidden; margin: 0; padding: 0}
+#pgbtn.pgbtn { display: none}
+#livethread { border: 1px solid #EEEEEE !important; background: #F6F6F6 !important}
+.ie6 #ip_notice.focus.plugin { display: none}
+.ie7 #ip_notice.focus.plugin { display: none}
+.ie6 #chart { overflow: hidden; margin: 0; padding: 0}
+#menu-main-nav-menu li a span { display: none}
+h1, h2, h3, h4, h5, h6 { color: #666666}
+.bm { border: none; background: none}
+a { text-decoration: none}
+a:hover { text-decoration: none; }
+a, #umnav_menu, .pn{transition: background-color 0.3s linear; -moz-transition: background-color 0.3s linear; -webkit-transition: background-color 0.3s linear; -o-transition: background-color 0.3s linear;}
+#menu-main-nav-menu.sf-menu.sf-js-enabled.sf-shadow { width: 660px; height: 30px; line-height: 30px; overflow: hidden; background: none}
+.tbn li { border-bottom: 1px solid rgb(238, 238, 238) !important}
+.freeside { border: 0; margin: 0; padding: 0; background: none}
+.freesidetop { padding:0; margin: 15px 0 10px 0 !important; border: 0; background: none}
+.freesidetop2{ border:0; padding:0; margin: 15px 0 0 -8px !important; background: none}
+.mbt { margin: 15px 0 !important; padding: 0; border: 0; background: none}
+.ad980 { width: 980px; height: 90px; overflow: hidden; padding: 0; margin: 20px 0 !important; padding: 0; border: 0; background: none}
+.pluseImage:hover img { transform: scale(1.08, 1.08)}
+.transitionAll { transition: all 0.3s ease 0s}
+.pls { border-right: 1px solid #EEEEEE !important; background: #F8F8F8 !important}
+#postlist.pl.bm { border: 1px solid #EEEEEE; border-top: 3px solid #57BAE8}
+#f_pst.pl.bm.bmw { border: 3px solid #F0F4F8}
+#f_pst .plc { padding: 20px !important}
+.sitecontainer { width: 980px; height: auto}
+.nav_box { float: left; width: 660px; height: 30px; background: none}
+button#commentsubmit_btn.pn { float: right; border: 0 !important; width: 60px; height: 25px; margin-top: 5px; background: #57BAE8}
+#pt { height: 32px !important; line-height: 32px !important; padding: 10px 0 !important}
+#pt .z a, #pt .z span { height: 32px; line-height: 32px}
+#pt .z em { text-indent: -9999px; background-position: 3px 11px}
+#pt .z { height: 32px; line-height: 32px}
+a.nvhm { line-height: 80px !important}
+#commentsubmit_btn strong { color: #FFFFFF}
+.nvhm { width: 32px; background: url(template/win8mi_2nd_shuzi/src/img/category.png) no-repeat left top}
+.px, .pt, .ps, select {
+    padding: 4px;
+    line-height: 18px;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(240, 240, 240) inset;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: inherit;
+    color: rgb(51, 51, 51);
+}
+.card_mn { background: #FFFFFF}
+
+
+/* 文章内容页样式 */
+.pg_view .ct2 .mn { width: 650px; padding: 20px; margin-top: 15px; border-radius: 8px; box-shadow: 0px 1px 7px #BCBCBC; background: #FFFFFF}
+.pg_view .ct2 .sd { padding: 20px; margin-top: 15px; border-radius: 8px; box-shadow: 0px 1px 7px #BCBCBC; background: #FFFFFF}
+
+/* 延迟显示效果 */
+a, a:hover {
+    transition: all 0.3s ease 0s
+}
+/* 总体样式结束 */
+/* diy
+----------------------------------------------------------------------------------------------------*/
+.frame, .frame-tab { background: none; border: none; padding: 0; margin: 0}
+.block { margin: 0}
+.temp { margin: 0}
+/* diy end */
+
+
+/* toptb
+----------------------------------------------------------------------------------------------------*/
+#topbars { height: 30px; line-height: 30px; border-bottom: 0 !important; position: fixed; margin: 0 auto; width: 100%; z-index: 100; background: #333333 !important}
+#topbars a { color: #EEEEEE}
+.ie6 #topbars { overflow: hidden}
+
+
+#toptb { height: 30px; line-height: 30px; border-bottom: 0 !important; margin: 0 auto; width: 100%; z-index: 100; background: #333333 !important}
+#toptb a { color: #EEEEEE}
+#toptb .z { margin-left: 20px}
+#toptb .y { margin-right: 20px}
+.ie6 #toptb { overflow: hidden}
+
+#ft { border-top: 0 !important}
+#space .bm_h { padding: 0 10px !important}
+
+#switchblind { display: none}
+#diy-tg { margin-top: 3px}
+#toptb #diy-tg_menu { margin-top: -10px; margin-left: -8px}
+.a_mu { border: 0; background: #FFFFFF}
+.headerbox { width: auto; height: auto; border: 0; padding-top: 30px; _padding-top: 0; border-bottom: 1px solid rgb(236, 236, 236); background: #FFFFFF}
+
+#nv_search .y { margin-right: 30px}
+#nv_search .searchform { margin-top: 30px}
+#nv_search #toptb { position: relative}
+
+/* toptb end */
+
+/* header
+----------------------------------------------------------------------------------------------------*/
+.headerwidget { width: 500px !important; height: 48px !important; margin-top: 35px; z-index: 800}
+.s_header { width: 980px; margin: 0 auto; height: 120px; overflow: visible}
+.bm_c.u_profile { padding: 10px}
+/* header end */
+
+/* 下拉菜单
+----------------------------------------------------------------------------------------------------*/
+.p_pop, .p_pof, .sllt { padding: 0; border: 1px solid #EEEEEE; margin-top: 0; box-shadow: none; background: #FFFFFF}
+.h_pop { min-width: 100px; border: 0; top: 30px !important; background: #000000}
+.h_pop li { line-height: 18px !important}
+.h_pop a { float: none !important; color: #FFFFFF !important; padding: 12px 20px !important; height: 18px !important; border-bottom: 0}
+.h_pop a:hover { background: #2F3237}
+.bui a, .bui a:hover { padding: 0; border: none; background: none}
+/* 下拉菜单结束 */
+
+
+
+
+
+/* Member
+----------------------------------------------------------------------------------------------------*/
+#header_user { height: 30px; line-height: 30px; margin-top: 0; margin-right: 0; float: right}
+#header_nav .username { display: block; padding: 0 10px; width: 25px; height: 25px; line-height: 25px; display: block; margin-top: 5px; float: left}
+#header_nav .username img { width: 20px; height: 20px; border-radius: 50%}
+#header_nav span { float: left; height: 30px; line-height: 30px}
+#header_nav span:hover { background: #F8F8F8}
+.avatarimg:hover {  color: #333333 !important; background: url(template/win8mi_2nd_shuzi/src/img/arup.png) no-repeat 40px center #F8F8F8 !important}
+#header_nav span:hover a { color: #333333 !important}
+#header_nav span a { font-size: 12px; height: 30px; line-height: 30px; color: #EEEEEE; font-family: "Microsoft Yahei"; padding: 0 10px}
+#um .new, .topnav .new, .sch .new, #toptb .new { color: #EEEEEE}
+#pm_ntc.new { background-repeat: no-repeat; background-position: 5px 3px; padding-left: 28px}
+#myprompt.new { background-repeat: no-repeat; background-position: 5px 3px; padding-left: 20px}
+
+#toptb #pm_ntc.new { background-position: 5px 9px}
+#toptb #myprompt.new { background-position: 5px 9px}
+
+#newprompter span:hover { background: #F8F8F8 !important}
+#umnav_menu { margin-left: -52px; margin-top: 0; top: 30px !important; border-top: 0 !important}
+#umnav_menu li a { float: none !important; width: 63px; height: 15px !important; line-height: 15px; padding: 7px 20px; color: #333333; border-bottom: 0}
+#umnav_menu li span.pipe { display: none}
+#umnav_menu li .qq_bind { margin-left: -18px}
+#umnav_menu li a:hover { color: #FFFFFF !important; border-bottom: 0; background: #57BAE8}
+.login_list {
+    float: right;
+    position: relative;
+    overflow: hidden
+}
+.login_block {
+    display: block;
+    padding: 0px 10px;
+    height: 60px;
+    line-height: 60px;
+    color: rgb(204, 204, 204)
+}
+a.login_block { height: 30px !important; line-height: 30px; padding: 0 8px !important; color: rgb(238, 238, 238)}
+.login_block:hover { background: #FFFFFF; color: rgb(51, 51, 51)}
+a.login_block:hover { color: #333333 !important}
+.login_block i, .usernav li .png i, .userinfo .arrow, .login_list .i_qq, .login_list .i_wb, .nav_icon {
+    display: block;
+    background: url(template/win8mi_2nd_shuzi/src/img/icon.png) no-repeat 0 0
+}
+.login_list .i_qq, .login_list .i_wb {
+    width: 30px;
+    height: 29px;
+    margin: 0;
+    text-indent: -9999px;
+	cursor: pointer
+}
+.login_list .i_qq { margin-left: 5px; background-position: -145px 0}
+.login_list .i_wb {
+    background-position: -110px 0;
+    margin-right: 0
+}
+.login_list a:hover .i_qq {
+    background-position: -217px 0
+}
+.login_list a:hover .i_wb {
+    background-position: -183px 0
+}
+.m_l, .m_r, .t_l, .t_c, .t_r, .b_c, .b_l, .b_r {
+    display: none;
+}
+.m_c .flb em {
+    color: rgb(76, 76, 76);
+    text-shadow: 0px 1px 1px rgb(255, 255, 255);
+}
+.m_c .flb {
+    line-height: 18px;
+    padding: 9px 9px 8px 15px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(229, 229, 229);
+    background: none repeat scroll 0% 0% rgb(247, 247, 247);
+    margin-bottom: 10px;
+}
+.m_c {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(221, 221, 221)
+}
+.rfm a {
+    color: rgb(49, 132, 219);
+}
+.rfm .px:focus {
+    border-color: rgb(49, 132, 219);
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+}
+/* Member end*/
+
+/* Search
+----------------------------------------------------------------------------------------------------*/
+#scbar { float: right; height: 48px; line-height: 46px; border: medium none; margin: 0; overflow: visible; background: #FFFFFF}
+#scbar.longer { box-shadow: 0px 0px 4px rgba(137, 215, 248, 0.7)}
+#scbar_txt { border-width: 1px medium 1px 1px;border-style: solid none solid solid;border-color: rgb(231, 231, 231); border-image: none; height: 46px; line-height: 46px;width: 190px;padding: 0px 5px;font-size: 14px;transition: all 0.3s ease-in-out 0s; background: none}
+#scbar.longer #scbar_txt { width: 260px;border-color: rgb(137, 215, 248);transition: all 0.3s ease-in-out 0s}
+#scbar_type { display: block;padding-left: 10px;text-align: left;text-decoration: none}
+.scbar_type_td #scbar_type { background: url(template/win8mi_2nd_shuzi/src/img/ard.png) no-repeat scroll 40px center; border-width: 1px medium; border-style: solid none;border-color: rgb(231, 231, 231);border-image: none}
+#scbar.longer .scbar_type_td #scbar_type { border-color: rgb(137, 215, 248); transition: all 0.3s ease-in-out 0s}
+.scbar_txt_td { border: medium none}
+.scbar_txt_td, .scbar_type_td { background: none repeat scroll 0% 0% transparent}
+.scbar_btn_td { width: 26px; height: 30px; padding: 9px 11px; background: url(template/win8mi_2nd_shuzi/src/img/search.png) no-repeat center center rgb(87, 186, 232); display: block}
+#scbar_btn { margin: 0; padding: 0; border: medium none ;background: none repeat scroll 0% 0% transparent; box-shadow: none}
+#scbar_btn { width: 26px; height: 30px}
+#scbar_type { color: #999999}
+#scbar_type_menu { margin-top: 0}
+.ie6 #scbar_type_menu { width: 60px}
+#scbar_type_menu li a { padding: 8px 12px}
+
+/* Search end*/
+
+
+/* 返回顶部样式 */
+#scrolltop { border: 1px solid #DDDDDD !important; border-top: 0 !important}
+#scrolltop a { border-top: 1px solid #DDDDDD !important}
+
+
+/* Cat Title
+----------------------------------------------------------------------------------------------------*/
+.bm_h h2 { font-size: 16px; font-weight: normal}
+#onlinelist.bm_c { padding: 10px 2px; border: 0}
+.bm_c { border: 0; padding: 10px 0}
+.fl .bm_c { border: 0; padding: 5px 1px}
+.bml .bm_h { padding: 0 !important}
+.fl .bm_h, .bm_h, .bmw .bm_h { background: none; font-family: 'Microsoft YaHei'; font-weight: normal; height: 40px; line-height: 40px; padding: 0; border:none; border-bottom: 3px solid #F6F6F6 !important; margin-bottom: 10px}
+/* Cat Title end*/
+
+
+
+
+/* Btn
+----------------------------------------------------------------------------------------------------*/
+.pn { margin-left: 0}
+.px { margin-left: 0}
+.pnc, a.pnc { background: #57BAE8; border: none}
+.pnc:hover, a.pnc:hover { background: #333333}
+.pgs #newspecial, .pgs #newspecialtmp { float: left; width: 112px; height: 32px; margin-right:0; background: url({STYLEIMGDIR}all/pn_post.png) no-repeat 0 0 #57BAE8}
+#post_reply, #post_replytmp { float: left; margin-left: 5px; width: 55px; height: 32px; background: url({STYLEIMGDIR}all/pn_reply.png) no-repeat 0 0 #57BAE8}
+.ie6 #post_reply, #post_replytmp { overflow: hidden}
+#newspecial img, #newspecialtmp img, #post_reply img, #post_replytmp img { opacity: 0; filter: alpha(opacity=0); visibility: hidden}
+/* Btn end*/
+
+
+
+/* Page
+----------------------------------------------------------------------------------------------------*/
+#pgt .pg, #pgt .pgb { margin-top:0;}
+.pg a, .pg strong, .pgb a, .pg label { border: none; margin-left: 0}
+.pg strong { background-color: #57BAE8 !important; color: white; display: block; float: left; padding: 1px 10px; margin-left: 5px; font-weight: normal}
+.pg a, .pgb a, .pg label { display: block; float: left; background-color: #EEEEEE; padding: 1px 10px; margin-left: 5px; color: #333333}
+.pg a.nxt { float: left; background-image: none; display: block}
+.pg label { display: none}
+.pg a:hover, .pgb a:hover { color: white; background-color: #57BAE8; border: none}
+.pg a.prev { background-repeat: no-repeat}
+.pgb a { padding-left: 25px}
+#autopbn { display: none !important}
+/* Page end*/
+
+/* Footer
+----------------------------------------------------------------------------------------------------*/
+
+#ft strong { font-weight:normal;}
+#ft .textwidget p.ft-message { margin-bottom:20px;}
+.ft-findwe a{ display:block; float:left; width:16px; height:16px; padding-right:5px; background:url({STYLEIMGDIR}/all/is.png) no-repeat;}
+.ft-findwe a.f-sina { background-position:-4px -120px;}
+.ft-findwe a.f-qq { background-position:-4px -80px;}
+.ft-findwe a.f-qwb { background-position:-4px -240px;}
+.ft-findwe a.f-rr { background-position:-4px -200px;}
+/* Footer end*/
+
+
+
+/* Login
+----------------------------------------------------------------------------------------------------*/
+form .rfm { margin-left:0;}
+form .rfm .rq { display:none;}
+form .rfm th, .rfm td { height:32px; line-height:32px;}
+form .rfm .p_chk, .rfm .p_tip { height:30px; line-height:30px;}
+form .rfm th { text-align:left; width:5em; font-size:14px; }
+form .rfm .pn { height:30px; line-height:30px;}
+form .rfm .pn em, .rfm .pn span, .rfm .pn strong { padding:0 20px;}
+form .rfm .px, .rfm .pt { padding:8px 5px;}
+form .rfm .px, .rfm .pt, .ps, .rfm select { border:1px solid #E3E3E3; background:none; }
+form .rfm #reginfo_a_btn em { display:none;}
+form .rfm .ps, .rfm select {margin-left: 0;padding: 6px;}
+#fwin_login  .m_c{ background:#fff url({STYLEIMGDIR}/all/m2.png) no-repeat 285px 100px;}
+/* Login end*/
+
+
+
+/* Else
+----------------------------------------------------------------------------------------------------*/
+.flbc { background-image: url({STYLEIMGDIR}/all/cls.gif); }
+.tb { padding-left:0;}
+.rfm { border-bottom:none;}
+.fwinmask { top:0;  -webkit-transition: opacity .2s linear, top .2s ease-out;
+-moz-transition: opacity .2s linear, top .2s ease-out;
+-o-transition: opacity .2s linear, top .2s ease-out;
+transition: opacity .2s linear, top .2s ease-out;}
+.t_l, .t_r, .b_l, .b_r { border-radius: 0;}
+/* Else end*/
+
+
+/* 图文列表页 - 4A设计 */
+		.win8mi_simple {}
+		.win8mi_simple .mn { float: left; width: 685px; margin-bottom: 1em; overflow: visible}
+		.win8mi_simple .sd { float: right; width: 260px; overflow: visible}
+		.ie6 .win8mi_simple .sd { float: right; width: 280px; overflow: hidden}
+		.win8mi_simple .bm { border: none}
+			.win8mi_simple .sd .bm { border: none}
+			.win8mi_simple_list .mn .bm { border-right: 0; padding-left: 0}
+			.win8mi_simple_view .bm { border:1px solid #DDDDDD}
+			.win8mi_simple_view .vw .d { margin-left: 0}
+			.vw .d { color: rgb(68, 68, 68) !important}
+			.win8mi_simple_view .vw .h { border-bottom: 1px solid #eee !important}
+			.win8mi_simple_view .vw .s { border-bottom: 1px solid #eee !important}
+		.win8mi_simple .bm_h { background:none; border-bottom:1px solid #ddd; box-shadow:none}
+			.win8mi_simple .bm_h .xs2 { font-size:18px !important; font-weight:normal}
+		.win8mi_simple .bm_c { padding: 0}
+		
+			.win8mi_simple .sd .bm_c { padding: 10px 15px 20px 15px}
+				.win8mi_simple_cat ul { list-style-type:none}
+				.win8mi_simple_cat li { margin:0px 10px 10px 0px; width:120px;height:40px;  margin-right:10px}
+				.win8mi_simple_cat li:nth-child(2n) { float:right; margin-right:0px}
+				.win8mi_simple_cat li a { background:#fa1; width:120px; height:40px; line-height:40px; text-align:center; color:#fff; font-size:14px; display:block; box-shadow:1px 1px 3px #ccc; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius: 3px}
+				.win8mi_simple_cat li a:hover { background: #5A1}
+		
+	/* repair the space of the article's comment too small,cause of bm_c padding: 0px;  */
+    .win8mi_simple #comment .bm_c {padding: 10px; font-size: 14px}
+	.win8mi_simple #comment h3 { font-size: 17px}
+	.win8mi_simple #comment .quote { color: #999999}
+		
+		/* redefine the border of article list */
+		/*
+		.bbda { border-bottom: 1px dashed {COMMONBORDER}; }
+		.bbs { border-bottom: 1px solid {COMMONBORDER} !important; }
+		*/	
+/* 二级分类 */	
+.bbs { border-bottom: 1px solid #EEEEEE !important}
+.win8mi_simple .bbda { line-height: 35px; font-size: 14px; padding: 0 0 0 50px; margin: 0 0 30px 0 !important; border-radius: 8px; box-shadow: 0px 1px 7px rgb(188, 188, 188); margin-top: 10px; border: 0; background: #FFFFFF}
+.win8mi_simple .bbs { position: relative; border: 0 !important}
+/* portal article title */
+.bm_c .xs2 a.xi2 { height: 40px; overflow: hidden; font-size: 20px !important;font-weight: 700; padding-bottom: 10px; margin: 0 0 5px 0; color: #333333}
+/* portal article list summary */
+.bm_c .xs2 { color: #999999; font-size: 14px}
+.xi2, .xi2 a, .xi3 a { color: rgb(49, 132, 219)}
+
+.win8mi_catlist li { float: left; height: 32px; line-height: 32px; padding: 0 10px; margin-right: 10px; border: 1px solid #999999; background: none}
+.win8mi_catlist li a { color: #999999; font-size: 12px}
+.win8mi_catlist li:hover { border: 1px solid #2076BD}
+.win8mi_catlist li:hover a { color: #2076BD}
+		
+/* redefine xld as win8mi_xld */
+.win8mi_xld .m { float: left; margin: 8px 8px 10px 0}
+.win8mi_xld dl { padding: 0; line-height: 24px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0px 1px 7px rgb(188, 188, 188); background: #FFFFFF}
+.win8mi_xld dl:hover .xs2 a { color: #57BAE8}
+.win8mi_xld dl:hover img { opacity: .8; -moz-opacity: .8; filter: alpha(opacity=80)}
+.win8mi_xld .atc { float: left; margin: 0 15px 0 0; border-radius: 8px 0 0 8px}
+.win8mi_list_pic img { float: left; max-width: 620px; padding: 0; margin-top: 0; border: 0; border-radius: 8px 0 0 8px}
+
+
+/* 文章列表页右侧样式 */
+em, cite, i {
+    font-style: normal;
+}
+.p_tit {
+    height: 32px;
+    line-height: 32px;
+	border: 0;
+    margin-bottom: 5px;
+	background: #333333
+}
+.p_tit h2 {
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+	padding-left: 10px;
+    overflow: hidden;
+	color: #FFFFFF;
+    float: left;
+	font-weight: 600;
+	font-family: "宋体"
+}
+.move a {
+    width: 65px;
+    height: 30px;
+    display: block;
+    line-height: 30px;;
+    text-align: center;
+    color: rgb(113, 119, 127);
+    text-decoration: none;
+    background: none repeat scroll 0% 0% rgb(238, 238, 238)	
+}
+.move a:hover {
+    background: #57BAE8;
+    color: rgb(248, 248, 248);
+}
+
+.rec { padding-bottom: 10px; background: #F3F3F3}
+.rec_pic {
+    background: none repeat scroll 0% 0% rgb(243, 243, 243);
+    text-align: center;
+    padding: 14px 0px 0px;
+	margin-top: 10px
+}
+.rec h3 {
+    font-size: 16px;
+    line-height: 23px;
+    background: none repeat scroll 0% 0% rgb(243, 243, 243);
+    padding: 14px 14px 0px;
+}
+.rec h3 a {
+    color: rgb(80, 91, 103);
+}
+.rec p {
+    color: rgb(145, 151, 159);
+    font-size: 12px;
+    line-height: 20px;
+    background: none repeat scroll 0% 0% rgb(243, 243, 243);
+    padding: 0px 12px 5px;
+}
+
+
+.index_tit {
+    background: none repeat scroll 0% 0% #57BAE8;
+    margin-bottom: 20px;
+    padding: 8px 10px;
+    height: 24px
+}
+.index_tit ul {
+    float: right;
+}
+.index_tit ul li {
+    display: inline-block;
+    text-indent: -999em;
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
+    margin-top: 7px;
+    background: url(template/win8mi_2nd_shuzi/src/img/focus_li.png) no-repeat 0 0;
+    cursor: pointer;
+    float: left
+}
+.index_tit ul li.on {
+    background: url(template/win8mi_2nd_shuzi/src/img/focus_on.png) no-repeat scroll 0px 0px transparent;
+}
+#ct .frame {
+    margin: 0px;
+    border: medium none
+}
+.index_tit h3 {
+    background: url(template/win8mi_2nd_shuzi/src/img/left.png) no-repeat left center;
+    padding-left: 26px;
+    float: left;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    color: #FFFFFF
+}
+.index_tit .more {
+    float: right;
+    background: url(template/win8mi_2nd_shuzi/src/img/arrow-circle.png) no-repeat right center;
+    width: 30px;
+    height: 24px;
+    text-indent: -9999px
+}
+
+/* 头部应用图标样式 */
+.social { float: right}
+.social ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0
+}
+.social ul li:first-child {
+    margin-left: 0px;
+}
+.social ul li {
+    float: left;
+    margin-left: 5px;
+}
+.social ul li a {
+    display: block;
+    float: left;
+    height: 48px;
+    width: 48px;
+    text-indent: -999em;
+}
+.social ul li a {
+    transition: all 0.3s ease 0s;
+}
+.social ul li a.twitter {
+    background: url(template/win8mi_2nd_shuzi/src/img/twitter.png) no-repeat scroll left center transparent;
+}
+.social ul li a.fb {
+    background: url(template/win8mi_2nd_shuzi/src/img/facebook.png) no-repeat scroll left center transparent;
+}
+.social ul li a.gplus {
+    background: url(template/win8mi_2nd_shuzi/src/img/gplus.png) no-repeat scroll left center transparent;
+}
+.social ul li a.rss {
+    background: url(template/win8mi_2nd_shuzi/src/img/rss2.png) no-repeat scroll left center transparent;
+}
+.social ul li a:hover { opacity: 0.8}
+
+
+/* 帖子列表页样式 */
+.vw .o { border-top: 0 !important}
+.bm_c { padding: 10px 1px; border: 0}
+.tl .bm_c { padding: 0; border: 0}
+#autopbn{ border: snone}
+#atarget{ margin-right: 10px; background-position: 0 4px !important}
+#atarget.atarget_1, .chked { background-position: 0 -37px !important}
+.tl th, .tl td { padding: 4px 0}
+.tl th .tdpre, .tl td.fn .tdpre{ margin-right:20px}
+.showhide{ margin: 5px 15px 0px 5px}
+.list2 { background: #F7F7F7}
+.tl .icon{ width: 50px}
+.tl .icon img{ width: 38px; height: 38px; border-radius: 3px; margin-left: 3px}
+.tl .num { width: 90px !important;line-height: 14px}
+.tl td.num a { color: rgb(87, 186, 232);vertical-align: middle;line-height: 1.1em;font-family: Arial; position: relative; margin-right: -5px;display: inline-block;top: -5px;}
+.tl td.num .line { color: #D1D1D1; font-size: 30px; font-family: Arial; line-height: 1em; vertical-align: middle; font-family: Courier New}
+.tl td.num em { color: #333333; font-size: 12px; line-height: 1.1em; font-family: Arial; position: relative; margin-left: -5px; vertical-align: middle;display: inline-block; bottom: -5px}
+#separatorline .ts th, #separatorline .ts td{ border-bottom: 1px solid #F6F6F6}
+.tl .th { background: none !important}
+.tl tr:hover th, .tl tr:hover td { background: none !important}
+.tl .th, .tl th, .tl td { border-bottom: 1px solid rgb(246, 246, 246)}
+.tl th, .tl td { border: none !important}
+.tl th:hover .tdpre, .tl td.fn:hover .tdpre { visibility: visible !important}
+.forumlistitle { padding: 0 0 0 10px; margin-bottom: 10px; color: #FFFFFF !important; background: #57BAE8 !important}
+.forumlistitle a, .forumlistitle span { color: #FFFFFF !important}
+.forumlistitle span { padding-top: 1px}
+#f_pst .bm_c { padding: 2px !important; border: 0 !important}
+.pgs { padding-bottom: 10px; border-bottom: 3px solid rgb(246, 246, 246)}
+.forumlistitle .showmenu { background: url(template/win8mi_2nd_shuzi/src/img/arrwd.png) no-repeat scroll 100% 50% transparent}
+.pgs.mtm.mbm { border-bottom: 0 !important}
+.pgb a {
+    background: none repeat scroll 0% 0% rgb(240, 244, 248);
+    padding-left: 12px;
+}
+.pg a, .pg strong, .pgb a, .pg label {
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0 12px;
+    background: none repeat scroll 0% 0% rgb(240, 244, 248);
+    overflow: hidden;
+    border: medium none
+}
+.tedt .area { padding: 0 !important}
+.rules { background: none repeat scroll 0% 0% rgb(246, 246, 246); border: 1px dashed rgb(221, 221, 221); padding: 10px}
+
+/** forum,group **/
+
+.tl .th, .tl tr:hover th, .tl tr:hover td{ background: none}
+.bbs { border-bottom: 1px solid #E2E2E2 !important}
+#pgt.pgs.mbm, #pgt.pgs.mbm.cl.pbm.bbs, .xi2.mbm.pbm.bbs { border-bottom: 0 !important}
+
+.turn { margin-right: 8px; color: {ALLCOL}}
+.ie6 .xl2 li { width: 320px !important}
+
+/* Footer
+----------------------------------------------------------------------------------------------------*/
+#ft { padding: 20px 0 50px 0 !important; border: none}
+#ft strong { font-weight: normal}
+#ft .textwidget p.ft-message { margin-bottom: 20px}
+.ft-findwe a{ display: block; float: left; width: 16px; height: 16px; padding-right: 5px; background: url({STYLEIMGDIR}/all/is.png) no-repeat}
+.ft-findwe a.f-sina { background-position:-4px -120px}
+.ft-findwe a.f-qq { background-position:-4px -80px}
+.ft-findwe a.f-qwb { background-position:-4px -240px}
+.ft-findwe a.f-rr { background-position:-4px -200px}
+/* Footer end*/
+
+/* 页脚通用样式 */
+.footer { padding: 0; margin-top: 20px; background: #333438}
+.footer a, .footer p { color: #999999}
+.footer a:hover, .footer p:hover { color: #CCCCCC !important}
+.pdnewfoot {
+    margin-top: 30px;
+    padding: 13px 0 0 0;
+    background: none repeat scroll 0% 0% rgb(51, 52, 56);
+}
+.tcopyright {
+    width: 960px;
+    margin: 0px auto;
+    padding: 8px 0px;
+    font-size: 12px;
+    line-height: 28px;
+    color: rgb(136, 136, 134);
+    text-align: center;
+    overflow: hidden;
+    clear: both;
+}
+.tcopyright a {
+    color: rgb(136, 136, 134);
+    text-decoration: none;
+}
+.tcopyright .en {
+    font-family: Arial;
+}
+
+
+/* 帖子列表页分类信息样式 */
+.ttp { margin-bottom: 15px !important}
+.ttp .a a, .ttp a:hover { color: #FFFFFF !important; border: 1px solid #57BAE8 !important; font-weight: 400 !important; background: #57BAE8 !important}
+.ttp a, .ttp strong { color: #666666; border: 1px solid #DDDDDD !important}
+
+
+/* 帖子列表页样式 */
+#mdly { position: absolute; right: 0; margin-top: -16px; padding: 10px 25px; width: 250px; height: 100px; background: url({IMGDIR}/mdly.png) no-repeat 0 0; line-height: 32px; overflow: hidden}
+#mdly a { color: #06C; }
+#mdly .cp { position: absolute; top: 10px; right: 10px; width: 35px; height: 32px; line-height: 100px; overflow: hidden}
+#mdly label { position: absolute; top: 10px; _top: 16px; right: 50px}
+#mdly h6 { line-height: 32px; }
+#mdly h6 strong { margin: 0 3px; color: {NOTICETEXT}}
+#mdly.cpd { margin-top: 4px; margin-right: -3px; padding: 0; width: 35px; height: 32px; border: none; background-position: 0 -128px}
+#mdly.cpd h6 { padding-top: 40px}
+#mdly.cpd .cp { display: none}
+#mdly.cpd #mdct { display: block; position: absolute; margin: 0; left: 3px; top: 0; z-index: 999; width: 32px; height: 32px; color: {NOTICETEXT}; text-align: center; cursor: pointer}
+.pg_viewthread #mdly { margin: 20px 0 0 10px; padding: 0; width: 200px; height: auto; background: none}
+
+.cmen { overflow: hidden; width: 63px}
+.cmen a { overflow: hidden; float:left; width: 20px; height: 20px}
+.tpmh { height: 200px}
+.tpmh .thby { margin: 5px 0 15px}
+.tpmh .tah_body select { width: 217px}
+.tplw { margin-bottom: 1em}
+.tplw table { width: 100%}
+.tplw td { padding: 0 5px}
+.tplw .txt { width: 100px}
+.tplw .wide .txt { width: 50px}
+.llst li{ padding: 4px 0; border-bottom: 1px solid {COMMONBORDER}; height: 28px}
+.llst .copt { height: auto}
+.tm_c { background: #{COMMONBG}}
+.tm_c .o { background: #EEEEEE}
+.tpclg { padding: 8px 0 4px}
+.tpclg h4 { font-weight: 400; width: 222px}
+.tpclg h4 span { float: left}
+.tpclg h4 .dpbtn { border-width: 1px}
+.tpclg .pt { margin: 5px 0; width: 212px; overflow: hidden}
+.tpcl { margin: 10px 0; border-top: 1px solid #DDD}
+.tpcl li { *overflow:hidden; *margin-bottom: -2px; height: 28px; line-height: 18px; border-top: 1px solid {WRAPBG}; border-bottom: 1px solid #DDD; zoom: 1}
+.tpcl .copt { height: auto}
+#fwin_mods .dopt { visibility: hidden; overflow: hidden; white-space: nowrap}
+#fwin_mods .copt .dopt { visibility: visible}
+#fwin_mods .dopt p .px, .hasd .px { float: left; width: 100px}
+#fwin_mods .dopt span .crl { width: 21px; height: 21px; border-style: solid; border-color: #707070 #CECECE #CECECE #ABABAB; border-width: 1px 0 1px 1px}
+
+.tpcl table { width: 100%}
+.tpcl td { vertical-align: top; padding: 5px}
+.tpcl .labeltxt { display: block; cursor: pointer; width: 100%; background: url(../../{IMGDIR}/arrwd.gif) no-repeat 100% 8px}
+.copt .labeltxt { float: left; cursor: default; width: 45px; background: none; color: #09C; }
+.tpcl .pc { margin: 3px}
+.ie7 .tpcl .pc { margin-top: -2px}
+.tpcl img { vertical-align: middle}
+.tahfx { overflow: hidden; white-space: nowrap; width: 217px; *border-right: 1px solid {WRAPBORDERCOLOR}}
+.tahfx select { width: 160px; *width: expression(this.offsetWidth > 180 ? 'auto':'180')}
+
+#toolbarroot { top: 0; left: 0; width: 96%; z-index: 9000; position: fixed; height: 30px}
+#toolbardiv { min-width:980px; height:27px; line-height:27px; padding:1px; border-bottom:1px solid {WRAPBORDERCOLOR}; background: #EEEEEE}
+#togglediv { width:22px; height:22px; border:1px solid #09f; position:absolute; right:5px; top:3px; z-index:9998; cursor:pointer; text-align: center}
+
+.pg_modcp .tl { min-height: 150px; overflow: visible}
+.ie6 .pg_modcp .tl { height: 150px}
+.ie6 #plugin_notice.focus.plugin { display: none}

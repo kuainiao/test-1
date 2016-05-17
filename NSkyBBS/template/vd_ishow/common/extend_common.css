@@ -1,0 +1,44 @@
+﻿.frame{ border:0px none !important;margin:0px !important;background-color:transparent !important;background-image:none !important;}
+.area .move-span{ border:0px none !important;margin:0px !important;background-color:transparent !important;background-image:none !important;}
+.area  .dxb_bc{ margin:0px !important;}
+.clear{clear:both;}
+#toptb{min-width:960px;background-color:#1f1f1f; height:33px;font:12px/33px '????'}
+#toptb a{float:left;padding:0 3px;height:33px; color:#fff;display:inline-block;*zoom:1;*display:inline}
+#toptb a.showmenu{padding-right:15px;}
+#toptb a.hover{background-color:#FFF;}
+#toptb .pipe{float:left;display:none;}
+#diy-tg_menu a{color:#333;}
+#toptb #diy-tg_menu{margin:-12px 0 0 -17px;}
+#toptb #diy-tg_menu ul li{margin-bottom:-9px;}
+#hd{border-bottom:0 solid #C2D5E3;}
+#hd .wp{padding:10px 0 0;}
+#hd h2{padding-top:5px;}
+#hd .fastlg{padding-top:5px;}
+#nv{overflow:hidden;height:45px;background:#ce2029 url({STYLEIMGDIR}/show_bg.gif) 0px -35px repeat-x;-webkit-border-radius:2px 2px 3px 3px;-moz-border-radius:2px 2px 3px 3px;border-radius:2px 2px 3px 3px;}
+#nv li{float:left;height:43px;line-height:43px;font-weight:700;font-size:14px;padding-right:0px;}
+.ie_all #nv li{line-height:43px;}
+.ie6 #nv li{line-height:43px;}
+#nv li a{float:left;height:43px;}
+#nv li a{color:#FFF;}
+#nv li span{display:none;}
+#nv li.a{background:#1e1e1c url({STYLEIMGDIR}/show_bg.gif) 0px -98px;}
+#nv li.a a{color:#FFF;}
+#nv li a:hover{background:#1e1e1c url({STYLEIMGDIR}/show_bg.gif)  0px -98px;}
+#nv li.hover a:hover,#nv li.hover a{background:#1e1e1c url({STYLEIMGDIR}/show_bg.gif)  0px -98px;}
+#qmenu{margin-top:10px;}
+.wd960{width:960px;margin:0 auto;}
+#nmw{width:958px;margin:0 auto;border:solid 1px #D1D1D1;}
+#nav_n{overflow:hidden; margin:5px;}
+.nav_in{width:198px;overflow:hidden;height:21px;line-height:21px;}
+.nav_in a{color:#333;padding:5px;}
+.nav_in1{width:325px;overflow:hidden;height:21px;line-height:21px;}
+.nav_in1 a{color:#333;padding:5px;}
+#sub_nav{width:198px;overflow:hidden;float:left;}
+#sub_nav1{width:325px;overflow:hidden;float:left;}
+.hdadr{float:right;}
+#scbar { overflow: hidden; border-top: 1px solid #CCC; border-bottom: 1px solid #CCC; background:#FDF8F8;}
+.pn, .tb .o, .tb .o a { background-image: url({STYLEIMGDIR}/pn.png); }
+.pnc, a.pnc, .tb .o { border-color:#ce2029; background-color:#ce2029; }
+
+
+

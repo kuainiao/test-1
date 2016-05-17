@@ -1,0 +1,36 @@
+/*顶部导航
+#toptb {background: #FAFAFA;}
+#toptb .wp .z,#toptb .wp .y{margin: 6px 0;}**/
+/*全局*/
+.wp {width: 1000px;}
+.clear {clear: both;}
+.pnc {background: #178FE7;color: white;border: none;box-shadow: 1px 1px 4px #98999B;border-radius: 2px;}
+.pnc:hover {background: #fd9b00;}
+.pnc strong {font-weight: 500;}
+
+
+/*导航  */
+#hd .hdc .wp{min-height: 80px;}
+.zds_nv{left: 0;top: 0;width: 100%!important;height: 39px;position: fixed;z-index: 9;opacity: 0.85;}
+#ds_nv {height: 37px;margin-bottom: 0px;color: #000;text-decoration: none;border-bottom: #fd9b00 6px solid;overflow: hidden;margin: 0 auto;background: #fff;}
+#ds_nv .wp {padding: 0px;background: none;}		
+#ds_nv .ds_nvul li {float: left;}
+#ds_nv .ds_nvul li a {min-width: 109px;height: 37px;display: block;float: left;line-height: 37px;overflow: hidden;font-size: 16px;color: #666;text-align: center;border: #e4e4e4 1px solid;_display: inline;-webkit-transition: all 0.1s linear;-moz-transition: all 0.1s linear;font-family: 'Microsoft YaHei', '宋体', Arial, Helvetica, sans-serif;background-color: #FFF;padding: 0 10px;}
+#ds_nv .ds_nvul li span {display: none;}
+#ds_nv .ds_nvul li a:hover,#ds_nv .ds_nvul li.a a{color: #fff;text-decoration: none;background-color: #fd9b00;border-color: #fd9b00;line-height: 37px;height: 37px;}
+
+
+
+
+#ds_qmenu_menu{margin-top: -2px;padding: 20px 5px 10px;width: 610px;border-color: #DCE4EB;left: 725px!important;}
+#ds_qmenu_menu ul.nav li {float: left;}
+#ds_qmenu_menu ul.nav{height: auto;}
+#ds_qmenu_menu ul.nav a {margin-bottom: 10px;padding: 47px 0 0;width: 60px;border: none;border-radius: 4px;background: url({IMGDIR}/noicon.gif) no-repeat 50% 5px;text-align: center;}
+
+
+/*footer页尾*/
+.ds_mbfooter{background: #243445;border-top: 5px solid #fd9b00;}
+.ds_mbfooter #ft{position: relative;margin: 0 auto;padding-bottom: 20px;border-top: none;}
+.ds_yizhiftinfo{text-align: center;border-top: none;padding-top: 20px;}
+.ds_yizhiftinfo p,.ds_yizhiftinfo p a {line-height: 28px;color: #cccccc;}
+.ds_yizhiftinfo p span {display: inline;padding: 0 16px;color: #cccccc;}

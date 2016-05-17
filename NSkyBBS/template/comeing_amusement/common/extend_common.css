@@ -1,0 +1,240 @@
+/* ----------------------------------
+
+全局CSS样式
+
+----------------------------------*/
+/*
+	Name:			  comeing_font_size
+	Level:			Global
+	Explain:		字体大小
+*/
+
+.comeing_fs10{ font-size:10px; }
+.comeing_fs12{ font-size:12px; }
+.comeing_fs14{ font-size:14px; }
+.comeing_fs16{ font-size:16px; }
+.comeing_fs18{ font-size:18px; }
+.comeing_fs20{ font-size:20px; }
+.comeing_fs24{ font-size:24px; }
+
+/*
+	Name:			  comeing_font_color
+	Level:			Global
+	Explain:		颜色
+*/
+
+.comeing_fcw,.comeing_fcw a{ color:#fff; } /*comeing_font_color_white*/
+.comeing_fcl,.comeing_fcl a{ color:#999; } /*comeing_font_color_light*/
+.comeing_fcd,.comeing_fcd a{ color:#000; } /*comeing_font_color_deep*/
+.comeing_fc,.comeing_fc a{ color:#f32c23; }   /*comeing_font_color*/
+
+/*
+	Name:			  DIY
+	Level:			Global
+	Explain:		DIY容器初始化
+*/
+.block{ margin:0px !important; padding:0px;}
+.comeing_areaclear{ border:0px!important; background:none!important; margin:0px!important; padding:0px!important;}
+
+.column:after,.dxb_bc:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.column{ zoom: 1;}
+
+/* ----------------------------------
+布局样式
+----------------------------------*/
+/*wp*/
+.wp{ width:1000px; }
+.ct2 .mn { width: 770px; }
+.ct2_a .mn { width: 840px; }
+.ct2_a .mn { width: 840px; }
+#nv_userapp .ct2_a .mn, .ct2_a_r .mn { width: 850px; }
+.ct3_a .mn { width: 605px; }
+#wp{ min-height:600px; -height:600px;}
+
+/* ----------------------------------
+头部样式
+----------------------------------*/
+/*HD*/
+#coeming_hd{ padding-bottom:10px; margin-bottom:5px; background:url({STYLEIMGDIR}/hd.gif) repeat-x 0px 100px;}
+#coeming_hd .wp { padding: 14px 0 0; }
+#coeming_hd h2 { padding: 14px 20px 14px 0; float: left; }
+.hdc{ min-height:86px; height:86px; overflow:hidden;}
+
+/*广告*/
+.comeing_wad{
+	border:1px solid #ddd;
+	background:#fff; 
+	margin-bottom:10px;
+	padding:9px;	
+}
+/*toptb*/
+#comeing_toptb{ height:40px; line-height:40px; border-bottom:1px solid #e3e3e3; background:url({STYLEIMGDIR}/toptb.png) repeat-x 0 0;}
+#comeing_toptb .z a { float: left; padding: 0 4px; height: 40px; }
+#comeing_toptb .z span { float: left;}
+
+.comeing_userarea{ position:absolute; right:0px; bottom:0px; padding-left:29px;background:url({STYLEIMGDIR}/userarea.png) no-repeat 0 0;} 
+.comeing_userarea_l{ background:url({STYLEIMGDIR}/userarea.png) repeat-x 0 -42px; }
+.comeing_userarea_c{ line-height:42px; padding:0 4px 0 0;  color:#fff; background:url({STYLEIMGDIR}/userarea.png) no-repeat 50% -84px;}
+.comeing_userarea_login{ padding:0 64px 0 0;}
+.comeing_avt{ position:absolute; right:10px; bottom:10px;}
+.comeing_avt img{ width:40px; height:40px; background:#fff; padding:2px;}
+.comeing_userarea,.comeing_userarea a{ color:#fff}
+.comeing_userarea .pipe{ color:#fff}
+.showmenu { padding-right: 16px; background: url({STYLEIMGDIR}/userarea_arrwd.gif) no-repeat 100% 50%;}
+
+.comeing_lus{ width:60px; height:22px; border:0px; padding:0 5px; color:#999; margin-right:6px; background:url({STYLEIMGDIR}/lip.gif) no-repeat 0 0;}
+.comeing_lpa{ width:60px; height:22px; border:0px; padding:0 5px; color:#999; margin-right:6px; background:url({STYLEIMGDIR}/lip.gif) no-repeat 0 -22px;}
+.comeing_lus:focus,.comeing_lpa:focus{background:url({STYLEIMGDIR}/lip.gif) no-repeat 0 -44px;}
+.comeing_lip{ width:60px; height:22px; border:0px; padding:0 5px; color:#999; margin-right:10px; background:url({STYLEIMGDIR}/lip.gif) no-repeat 0 -44px;}
+
+.comeing_lbt{ width:50px; height:22px; border:0px; color:#fff; text-align:center; cursor:pointer; margin:0 6px; background:url({STYLEIMGDIR}/lbt.gif) no-repeat 0 0;}
+.comeing_lrg{ width:50px; height:22px; border:0px; color:#000; text-align:center; cursor:pointer; margin:0 6px 0 0; background:url({STYLEIMGDIR}/lrg.gif) no-repeat 0 0;}
+
+.comeing_user form{ -padding-top:8px;}
+
+.comeing_userarea .new{ padding-left: 20px; background-repeat: no-repeat; background-position: 0 50%; color:#ff0;}
+
+/*主导航*/
+.comeing_nvarea{ position:relative}
+.comeing_extend_nv{  }
+		
+#comeing_fixed_nv .wp{ padding:0px; background:none}
+#comeing_nv{ height:30px; line-height:30px; overflow:hidden; padding:10px 0px; overflow:hidden;  }
+.comeing_nv{}
+.comeing_nv_content{}
+.comeing_nv ul{ padding:0; height:30px; line-height:30px; overflow:hidden;}
+#comeing_nv li{ float:left; height:30px; padding-right:20px; margin-right:10px; line-height:30px;background:url({STYLEIMGDIR}/nv.gif) no-repeat 100% 50%; }
+#comeing_nv li span{ display:none}
+#comeing_nv li a{ float:left; height:30px; padding:0 15px; font-size:16px; color:#fff;}
+#comeing_nv li a:hover{ text-decoration:none; color:#d90e05; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; overflow:hidden; background:url({STYLEIMGDIR}/nv_a.gif) repeat-x 0 0;}  
+#comeing_nv li.a{ }
+#comeing_nv li.first_a{ margin-left:0;}
+#comeing_nv li.a a, #comeing_nv li.first_a a{ padding:0 15px; color:#d90e05;  -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; overflow:hidden; background:url({STYLEIMGDIR}/nv_a.gif) repeat-x 0 0;  }
+
+.comeing_nv_fixed{ position:fixed; width:100%; left:0px; top:0px; height:50px; border-bottom:5px solid #fd463e; z-index:999;
+	background: rgba(255, 255, 255, 0.9); 
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr = #90ffffff, endColorstr = #90ffffff);	
+}
+.comeing_nv_fixed #comeing_nv{ padding:0px; height:50px; line-height:50px; background:none;	-moz-box-shadow:0 0 0 0;-webkit-box-shadow:0 0 0 0; box-shadow:0 0 0 0;-moz-border-radius:0 0 0 0; -webkit-border-radius:0 0 0 0; border-radius:0 0 0 0;}
+	
+.comeing_nv_fixed .comeing_nv{ background:none}
+.comeing_nv_fixed .comeing_nv_content{ background:none}
+.comeing_nv_fixed .comeing_cs{ display:none}
+.comeing_nv_fixed .comeing_nv ul{ height:50px; padding:0; line-height:50px;}
+.comeing_nv_fixed #comeing_nv li{ padding:0px; background:none}
+.comeing_nv_fixed #comeing_nv ul{ border-left:1px solid #ddd;}
+.comeing_nv_fixed #comeing_nv li{ height:50px; line-height:50px; border-right:1px solid #ddd;}
+.comeing_nv_fixed #comeing_nv li a{ height:50px; padding:0 20px; font-size:16px; color:#333; background:none}
+.comeing_nv_fixed #comeing_nv li a:hover{ text-decoration:none; background:#eee; color:#333}  
+.comeing_nv_fixed #comeing_nv li.a{ margin-left:0;}
+.comeing_nv_fixed #comeing_nv li.a a,.comeing_nv_fixed #comeing_nv li.first_a a{ background:#fd463e; color:#fff;
+  -moz-border-radius:0; -webkit-border-radius:0; border-radius:0;
+}
+.comeing_nv_fixed #scbar{ display:none;}
+.comeing_nv_fixed #comeing_nv{ padding-left:0px;}
+
+
+
+#scbar { margin-top:10px; float:right; width:304px; padding:0px; height:30px; border:none; line-height:30px; overflow:hidden; background: url({STYLEIMGDIR}/scbar.gif) no-repeat 0px 0;}
+.scbar_icon_td { width:10px; background: none;  }
+.ie7 .scbar_icon_td { padding-left:10px; overflow:hidden; }
+.scbar_icon_td { _padding-left:10px; _overflow:hidden; }
+.scbar_txt_td { width:136px; background: none; }
+#scbar_txt{ width:131px;}
+.scbar_type_td { width: 100px; background:none; }
+.scbar_btn_td { height:30px; line-height:30px; width: 58px; background:none;}
+#scbar_btn{ width:58px; display:block; height:30px; line-height:30px;}
+.comeing_scbarbg{ position:relative;}
+.comeing_scbarbg{ width:210px; float:right; margin-top:-20px; height:75px; overflow:hidden; padding-right:10px;}
+.comeing_scbarbg p{ text-align:center; padding-top:5px;}
+		
+/* ----------------------------------
+底部样式
+----------------------------------*/
+.comeing_ft{ text-align:center}
+.comeing_ft p{ padding:3px 0;}
+.comeing_ft p.copy,.comeing_ft p.copy a{ color:#999; }
+.comeing_ft img{ vertical-align:middle;}
+						
+
+/* ----------------------------------
+通用样式
+----------------------------------*/
+
+/*左右间距*/
+.comeing_p10{ padding:0 10px; }
+/*面包屑*/
+#pt{ margin: 0px 0 5px 0; color:#333 }
+#pt a{ color:#333 }
+.nvhm { background: url({STYLEIMGDIR}/pt.png) no-repeat 0 7px;}
+#pt .z em { background: url({STYLEIMGDIR}/ptem.png) no-repeat 3px 7px;}
+
+.ie_all .nvhm{ background: url({STYLEIMGDIR}/pt.png) no-repeat 0 6px;}
+.ie_all #pt .z em{ background: url({STYLEIMGDIR}/ptem.png) no-repeat 2px 7px;}
+
+/*分页*/
+.pg a, .pg strong, .pgb a, .pg label {
+	border-color:#ddd;
+	background-color:#fff;
+}
+.pg a:hover, .pgb a:hover,.pg strong { border-color:#97634e; color:#fff; background-color: #ae8571;  }
+
+
+/*按钮*/
+.pn { 
+  border: 1px solid #ccc;
+	background: #E5E5E5 url({STYLEIMGDIR}/pn.png) repeat-x 0 0;
+}
+.pnc, a.pnc { 
+  border: 1px solid #f32c23;
+	background: #fd463e;	
+}
+
+
+/* ----------------------------------
+
+其他
+
+----------------------------------*/
+
+/*瀑布*/
+.waterfall { margin-left:10px; margin-top:10px;}
+
+/* ----------------------------------
+
+插件
+
+----------------------------------*/
+.comeing_ptbar .slidebar em.on{ background:#f32c23 !important;}
+#comeing_showtabs li.curtab{ border:1px solid #f32c23 !important; background:#fd463e !important;
+	-moz-box-shadow: inset 0 -0px 0px 0px #f32c23 !important; 
+	-webkit-box-shadow: inset 0 -0px 0px 0px #f32c23 !important; 
+	box-shadow: inset 0 -0px 0px 0px #f32c23 !important;
+}
+
+/*fc*/
+.comeing_frame_box{ background:#fff; border-bottom-width:3px;}
+.comeing_frame_box .frame-title{ background: url({STYLEIMGDIR}/box/citycdiy.gif) repeat-x 0 0; padding:0px; line-height:50px; height:50px;}
+.comeing_frame_box .frame-title .titletext{ float:left; font-size:18px; padding:0 38px 0 24px; color:#fff; font-weight:400; background: url({STYLEIMGDIR}/box/citycdiy_t.gif) no-repeat 100% 0; }
+.comeing_frame_box .frame-title .subtitle{ font-size:14px; font-weight:normal; padding:0 10px; color:#999; }
+.comeing_frame_box .frame-title .subtitle a { font-size:12px; color:#369; }
+.comeing_frame_box .frame-1-c { padding:9px; }
+
+.comeing_frame_tab { background:#fff; }
+.comeing_frame_tab .tab-title{ background: url({STYLEIMGDIR}/box/citycdiy.gif) repeat-x 0 0; border-bottom:0px; padding:0px; line-height:50px; height:50px;}
+.comeing_frame_tab .tab-title .titletext{ float:left; font-size:18px; padding:0 38px 0 24px; margin-left:0px;  color:#fff; font-weight:400; background: url({STYLEIMGDIR}/box/citycdiy_t.gif) no-repeat 100% 0; }
+.comeing_frame_tab .tb { line-height: 30px; padding-top:10px; padding-right:10px; float:right;}
+.comeing_frame_tab .tb li{ float:left; height:30px; margin-left:10px;}
+.comeing_frame_tab .tb li a { text-align:center; color:#fff; height:28px; padding:0 15px; border:1px solid #f3971c ;background:#f8a42a;
+}
+.comeing_frame_tab .tb li.a a{  background:#fff; color:#333; border:1px solid #ccc;
+}
+.ie_all .comeing_frame_tab .tb { line-height: 28px;}
+#myprompt.new { padding-left:18px; background: url({IMGDIR}/notice.gif) no-repeat 3px 50%;  }
+#pm_ntc.new { padding-left:20px; background: url({IMGDIR}/new_pm.gif) no-repeat 0px 50%; }
+
+
+
+
+
+

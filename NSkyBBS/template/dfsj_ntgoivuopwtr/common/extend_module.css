@@ -1,0 +1,23 @@
+/* ----------------------------------
+
+Main CSS file for Discuz! X
+(C) FansBar.cn.
+http://www.fansbar.cn
+Created & Modified by ±±±±¡å.
+
+---------------------------------- */
+
+/** forum::viewthread,group::viewthread,forum::trade,forum::misc **/
+
+.pls { background: none; }
+
+/** end **/
+
+/** forum::forumdisplay **/
+
+.bdl, .bdl dt, .bdl dd.bdl_a a { border-color: #FCC; background-color: #FFF9F9; }
+	.bdl dt { background-image: url({STYLEIMGDIR}/titlebg_sd.png); }
+.bdl dd.bdl_a a { color: #BA350F; }
+
+
+/** end **/

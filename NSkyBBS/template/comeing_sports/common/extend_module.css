@@ -1,0 +1,7 @@
+/** forum::index **/
+/*Í³¼Æ*/
+#chart { margin-bottom: 15px; }
+.chart { padding-left: 32px; background: url({STYLEIMGDIR}/forum/chart.png) no-repeat 0 50%; color:#666; }
+.chart em { color:#ff6600; }
+
+/** end **/

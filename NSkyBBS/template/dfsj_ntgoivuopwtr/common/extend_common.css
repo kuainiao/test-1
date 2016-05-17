@@ -1,0 +1,61 @@
+/* ----------------------------------
+
+Main CSS file for Discuz! X
+(C) 巅峰设计.
+http://www.dfbar.net
+Created & Modified by 北北″.
+
+---------------------------------- */
+
+#hd .wp { padding: 0; }
+#hd h2 { padding: 0 20px 10px 0; }
+#wp.wp { padding: 10px 10px 0; background: #fff url({STYLEIMGDIR}/wp_bg.png) repeat-x 0 0; }
+#toptb { background: #262626; border-bottom: 0; }
+#toptb a { color: #ddd; }
+#diy-tg_menu a { color: #000; }
+#dfsj_ft { background: #222; }
+#ft { border-top: none; padding: 30px 0 30px; }
+#ft a { color: #980000; }
+
+.fl .bm_h { height: 34px; line-height: 34px; }
+.fl .bm_h a { color: #999; font-weight: bold; font-size: 1.2em; }
+
+.dfsj_post { background: #F4F4F4; }
+#postlist .bm { background: #F7F7F7; }
+
+.pgs #newspecial, .pgs #newspecialtmp { float: left; background: url({STYLEIMGDIR}/pn_post.png) no-repeat 0 0; }
+#post_reply, #post_replytmp { float: left; background: url({STYLEIMGDIR}/pn_reply.png) no-repeat 0 0; }
+	#newspecial img, #newspecialtmp img, #post_reply img, #post_replytmp img { opacity: 0; filter: alpha(opacity=0); }
+.moodfm_btn { background-image: url({STYLEIMGDIR}/mood_input_btn.png) !important; }
+#create_group_btn { display: block; background: url({STYLEIMGDIR}/create_group.png) no-repeat 0 0; }
+	#create_group_btn img { opacity: 0; filter: alpha(opacity=0); }
+
+.el .ec .hot { background-image: url({STYLEIMGDIR}/hotspot.gif); }
+.pll .s { background-image:url({STYLEIMGDIR}/polljoins.gif); }
+.pn, .tb .o, .tb .o a { background-image: url({STYLEIMGDIR}/pn.png); }
+.pg strong { background-color: #FCC; }
+	.pnc, a.pnc, .tb .o { border-color: #900; }
+	.mi .hover .moodfm_input { background-color: #FCC !important; }
+	.ad td.pls { background-color: #FCC; }
+
+#online .bm_h { height: 34px; line-height: 34px; color: #fff; font-size:1.2em; font-weight: bold; background: url({STYLEIMGDIR}/ol_bg.png) repeat-x 0 0; }
+#online .bm_h a { color: #fff; }
+
+#dfsj_nv { background: url({STYLEIMGDIR}/nv.png) repeat-x 0 0; }
+#dfsj_nv .wp { width: 980px; }
+			#nv { height: 46px; }
+				#nv li { padding-right: 0; height: 46px; line-height: 46px; background: none; }
+					.ie_all #nv li { line-height: 49px; }
+					.ie6 #nv li { line-height: 46px; }
+					#nv li a { height: 46px; }
+					#nv li.a { margin-left: 0; }
+						#nv li a:hover { color: #fff; background: url({STYLEIMGDIR}/nv_a.png) no-repeat 50% 0; text-decoration: none; }
+						#nv li.hover a:hover, #nv li.hover a { background: url({STYLEIMGDIR}/nv_a.png) no-repeat 50% 0; text-decoration: none; }
+				#mu ul { background: url({STYLEIMGDIR}/mu_bg.png) no-repeat 0 100%; }
+
+			#um { padding-top: 30px; }
+			#hd .fastlg { padding-top: 30px; color: #ddd; }
+			#hd .fastlg a { color: #ddd; }
+				#qmenu { margin: 10px 4px 0; }
+
+#scrolltop { margin-left: 18px; }
